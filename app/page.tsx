@@ -16,8 +16,9 @@ export default function Home() {
       fill = 'white'
     case 'system':
       fill = systemTheme === 'dark' ? 'white' : 'black'
+    default:
+      fill = 'light'
   }
-
 
   return (
     <main className="flex flex-col items-center pt-24">

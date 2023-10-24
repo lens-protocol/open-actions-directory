@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react'
 export default function Nav() {
   const { theme, systemTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
-  
+
   useEffect(() => {
     setMounted(true)
   }, [])
@@ -28,7 +28,6 @@ export default function Nav() {
   if (!mounted) {
     fill = 'white'
   }
-
 
    return (
     <div>
