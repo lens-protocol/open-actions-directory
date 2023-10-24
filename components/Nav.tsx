@@ -23,6 +23,8 @@ export default function Nav() {
       fill = 'white'
     case 'system':
       fill = systemTheme === 'dark' ? 'white' : 'black'
+    default:
+      fill = 'white'
   }
 
   if (!mounted) {
