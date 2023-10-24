@@ -3,6 +3,9 @@
 import { Actions } from '@/components/actions'
 import { LensIcon } from '@/components/LensIcon'
 import { useTheme } from 'next-themes'
+import { Button } from "@/components/ui/button"
+import { Code } from "lucide-react"
+import Link from 'next/link'
 
 export default function Home() {
   const { theme, systemTheme } = useTheme()
@@ -52,6 +55,21 @@ export default function Home() {
         >
         With Open Actions, users and developers “bring-your-own-smart-contracts” to enable any external smart contract-action on a Lens publication.
         </p>
+      </div>
+      <div>
+      <Button
+        asChild
+        className="w-full px-20 mt-8 py-6"
+        variant='outline'
+      >
+        <Link
+          target="_blank"
+          rel="no-opener"
+          href="https://docs.lens.xyz/v2/docs/creating-a-publication-action">
+          <Code className="mr-2" />
+            Submit an open action.
+        </Link>
+      </Button>
       </div>
        <Actions />
     </main>
