@@ -17,7 +17,7 @@ export default function Home() {
     case 'system':
       fill = systemTheme === 'dark' ? 'white' : 'black'
     default:
-      fill = 'light'
+      fill = 'white'
   }
 
   return (

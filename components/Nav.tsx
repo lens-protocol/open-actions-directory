@@ -40,19 +40,13 @@ export default function Nav() {
           <div className="flex flex-row items-center">
             <Link href="/">
               <div className='flex flex-row justify-center items-center'>
-                <Icon height="28px" fill={fill} />
+                <Icon width="28px" height="28px" fill={fill} />
                 <p
                   className="text-sm font-semibold"
                 >Lens Open Actions Directory
                 </p>
               </div>
             </Link>
-            <a href="https://docs.lens.xyz/v2/docs/what-is-lens" target="_blank" rel='no-opener'>
-              <p
-                className="hover:text-foreground text-muted-foreground text-sm ml-4"
-              >Lens Docs
-              </p>
-            </a>
             <a href="https://docs.lens.xyz/v2/docs/what-is-lens" target="_blank" rel='no-opener'>
               <p
                 className="hover:text-foreground text-muted-foreground text-sm ml-4"
@@ -63,6 +57,12 @@ export default function Nav() {
               <p
                 className="text-muted-foreground text-sm ml-4 hover:text-foreground"
               >Submit an Open Action
+              </p>
+            </a>
+            <a href="https://docs.lens.xyz/v2/docs/what-is-lens" target="_blank" rel='no-opener'>
+              <p
+                className="hover:text-foreground text-muted-foreground text-sm ml-4"
+              >Lens Docs
               </p>
             </a>
           </div>
