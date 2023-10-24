@@ -2,7 +2,7 @@
 
 import { Icons } from "@/components/ui/icons"
 import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+import Link from "next/link"
 import {
   Card,
   CardContent,
