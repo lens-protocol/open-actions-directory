@@ -5,6 +5,7 @@ import { Icon } from "@/components/Icon"
 import { ModeToggle } from '@/components/ui/mode-toggle'
 import { useTheme } from 'next-themes'
 import { useState, useEffect } from 'react'
+import { MobileNavigationMenu } from '@/components/ui/mobile-menu'
 
 export default function Nav() {
   const { theme, systemTheme } = useTheme()
@@ -37,7 +38,12 @@ export default function Nav() {
         <div
           className="px-8 py-3 flex flex-1"
         >
-          <div className="flex flex-row items-center">
+          <div
+            className='md:hidden'
+          >
+            <MobileNavigationMenu />
+          </div>
+          <div className="hidden md:flex flex-row items-center">
             <Link href="/">
               <div className='flex flex-row justify-center items-center'>
                 <Icon width="28px" height="28px" fill={fill} />
