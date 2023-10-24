@@ -36,7 +36,7 @@ export default function Nav() {
     <div>
       <div className='border-b'>
         <div
-          className="px-8 py-3 flex flex-1"
+          className="px-4 md:px-8 py-3 flex flex-1"
         >
           <div
             className='md:hidden'

@@ -53,13 +53,7 @@ export default function Home() {
         With Open Actions, users and developers “bring-your-own-smart-contracts” to enable any external smart contract-action on a Lens publication.
         </p>
       </div>
-      <div className='
-        pt-10 pb-32 flex flex-1
-        px-2 sm:px-5 xl:px-0
-        w-full sm:w-full xl:w-[1200px]
-      '>
        <Actions />
-      </div>
     </main>
   )
 }
