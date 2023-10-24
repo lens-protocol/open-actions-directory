@@ -65,7 +65,7 @@ export default function Home() {
         <Link
           target="_blank"
           rel="no-opener"
-          href="https://github.com/lens-protocol/open-actions-directory/blob/main/public/open_actions_pr_template.md">
+          href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md">
           <Code className="mr-2" />
             Submit an open action.
         </Link>
