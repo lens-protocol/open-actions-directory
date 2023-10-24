@@ -21,7 +21,12 @@ type Action = {
 
 export function ActionCard({ action } : { action: Action }) {
   return (
-    <div className="w-[290px] mx-[5px] mb-[10px]">
+    <div className="
+      w-full
+      sm:w-[calc(50%-10px)]
+      md:w-[calc(33.3%-10px)]
+      xl:w-[290px]
+      mx-[5px] mb-[10px]">
       <Card className="hover:bg-slight hover:text-accent-foreground">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl">{action.name}</CardTitle>
