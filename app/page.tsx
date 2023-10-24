@@ -29,7 +29,7 @@ export default function Home() {
         Enable any external smart contract-action on a Lens publication.
         </p>
       </div>
-      <div className='py-10 flex flex-1 w-[1200px]'>
+      <div className='py-10 flex flex-1 w-[380px] md:w-[600px] lg:w-[900px] xl:w-[1200px]'>
        <Actions />
       </div>
     </main>
