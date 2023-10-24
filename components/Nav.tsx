@@ -4,10 +4,16 @@ import Link from 'next/link'
 import { Icon } from "@/components/Icon"
 import { ModeToggle } from '@/components/ui/mode-toggle'
 import { useTheme } from 'next-themes'
+import { useState, useEffect } from 'react'
 
 export default function Nav() {
   const { theme, systemTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
   
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   let fill
   switch(theme) {
     case 'light':
@@ -18,7 +24,11 @@ export default function Nav() {
     case 'system':
       fill = systemTheme === 'dark' ? 'white' : 'black'
   }
-  console.log('fill: ', fill)
+
+  if (!mounted) {
+    fill = 'white'
+  }
+
 
    return (
     <div>
