@@ -98,9 +98,6 @@ export function ActionCard({ action } : { action: Action }) {
                 }
               </>
         </CardContent>
-        {/* <CardFooter>
-          <Button className="w-full">Create account</Button>
-        </CardFooter> */}
       </Card>
     </div>
   )
