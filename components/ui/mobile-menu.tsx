@@ -76,7 +76,7 @@ export function MobileNavigationMenu() {
               <ListItem href="https://docs.lens.xyz/v2/docs/what-is-lens" title="Build">
               Build an Open Action.
               </ListItem>
-              <ListItem href="https://docs.lens.xyz/v2/docs/what-is-lens" title="Submit">
+              <ListItem href="https://github.com/lens-protocol/open-actions-directory/blob/main/public/open_actions_pr_template.md" title="Submit">
                 { /* eslint-disable react/no-unescaped-entities */ }
                 Submit an Open Action that You've Created.
               </ListItem>

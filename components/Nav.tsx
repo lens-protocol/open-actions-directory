@@ -59,7 +59,7 @@ export default function Nav() {
               >Build an Open Action
               </p>
             </a>
-            <a href="https://docs.lens.xyz/v2/docs/what-is-lens" target="_blank" rel='no-opener'>
+            <a href="https://github.com/lens-protocol/open-actions-directory/blob/main/public/open_actions_pr_template.md" target="_blank" rel='no-opener'>
               <p
                 className="text-muted-foreground text-sm ml-4 hover:text-foreground"
               >Submit an Open Action
