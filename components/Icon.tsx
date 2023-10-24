@@ -1,4 +1,7 @@
-export function Icon({ fill, ...props }: { fill: string }) {
+export function Icon({
+  fill,
+  ...props
+}) {
   return (
     <svg {...props} version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
       <g>
