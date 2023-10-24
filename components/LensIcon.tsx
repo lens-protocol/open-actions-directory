@@ -1,6 +1,6 @@
 export function LensIcon({
   fill = 'black',
-  size = "177",
+  size = 177,
   ...props
 }) {
   return (
