@@ -132,7 +132,7 @@ export function ActionCard({ action } : { action: Action }) {
                         href="https://docs.lens.xyz/v2/docs/creating-a-publication-action">
                           <Code
                             className="mr-2" />
-                          <p >Learn how to Build</p>
+                          <p>Build</p>
                       </Link>
                     </Button>
                     )
