@@ -16,8 +16,16 @@ type Action = {
   name: string
   description: string
   type: string
-  link?: string,
+  link?: string
   builder?: string
+  bounty?: string
+}
+
+function trimString(string) {
+  if (string.length > 75) {
+    return string.substring(0, 75) + '...'
+  }
+  return string
 }
 
 export function ActionCard({ action } : { action: Action }) {
@@ -30,19 +38,33 @@ export function ActionCard({ action } : { action: Action }) {
       mx-[5px] mb-[10px]">
       <Card className="hover:bg-slight hover:text-accent-foreground">
         <CardHeader className="space-y-1">
-          <CardTitle className="text-2xl">{action.name}</CardTitle>
-          <CardDescription>
-            {action.description}
+          <CardTitle
+            className="text-2xl min-h-[70px]"
+          >{action.name}</CardTitle>
+          <CardDescription
+            className="min-h-[58px]"
+          >
+            {trimString(action.description)}
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">
             <div className="grid gap-6">
              {
-              action.type === "action" && (
-                  <Button className="w-full" variant="outline">
+              action.link && action.type === 'action' && (
+                <Button
+                  className="w-full"
+                  variant="outline"
+                  asChild
+                >
+                  <Link
+                    href={action.link}
+                    target="_blank"
+                    rel="no-opener"
+                  >
                     <Icons.gitHub className="mr-2 h-4 w-4" />
                     Github
-                  </Button>
+                  </Link>
+                </Button>
               )
              }
               {
@@ -58,7 +80,7 @@ export function ActionCard({ action } : { action: Action }) {
                       rel="no-opener"
                     >
                     <Gem width="20" className="mr-2" />
-                    Request bounty.
+                    Bounty ${action.bounty}
                     </Link>
                     </Button>
                 )
