@@ -41,7 +41,7 @@ export default function Home() {
           className="hidden sm:block"
         />
         <LensIcon
-          fill={fill}
+          fill="#733de4"
           size={100}
           className="sm:hidden block"
         />
