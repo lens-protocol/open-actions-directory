@@ -26,20 +26,37 @@
   },
   {
     "type": "rfp",
-    "name": "Smart ads / collectible coupons",
-    "description": "Basic example of Open Action on Polygon",
+    "name": "ENS",
+    "description": "Interact with ENS from a Lens app - purchase, renew, or update an ENS domain.",
+    "bounty": "5,000",
     "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
   },
   {
     "type": "rfp",
-    "name": "Basic action",
-    "description": "Basic example of Open Action on Polygon",
+    "name": "Collect on Zora",
+    "bounty": "5,000",
+    "description": "Cross-chain action to enable collecting Zora NFTs from a Lane app.",
     "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
   },
   {
     "type": "rfp",
-    "name": "Basic action",
-    "description": "Basic example of Open Action on Polygon",
+    "name": "FriendTech",
+    "bounty": "5,000",
+    "description": "Purchase or sell a FriendTech key from a Lens app.",
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+  },
+  {
+    "type": "rfp",
+    "name": "Aave",
+    "bounty": "5,000",
+    "description": "Interact with Aave protocol from a Lens app.",
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+  },
+  {
+    "type": "rfp",
+    "name": "Uniswap",
+    "bounty": "5,000",
+    "description": "Interact with Uniswap protocol from a Lens app.",
     "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
   }
 ]
