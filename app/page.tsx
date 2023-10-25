@@ -24,7 +24,10 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col items-center pt-24">
+    <main className="
+      flex-1 flex flex-col items-center
+      sm:pt-24 pt-10
+    ">
       <div className='flex flex-col flex-1 justify-center items-center'>
         <div
           className='
@@ -56,22 +59,22 @@ export default function Home() {
         With Open Actions, users and developers “bring-your-own-smart-contracts” to enable any external smart contract-action on a Lens publication.
         </p>
       </div>
-      <div>
-      <Button
-        asChild
-        className="w-full px-20 mt-8 py-6"
-        variant='outline'
-      >
-        <Link
-          target="_blank"
-          rel="no-opener"
-          href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md">
-          <Code className="mr-2" />
-            Submit an open action.
-        </Link>
-      </Button>
+      <div className='w-full sm:w-auto px-4'>
+        <Button
+          asChild
+          className="px-24 mt-8 py-6 w-full"
+          variant='outline'
+        >
+          <Link
+            target="_blank"
+            rel="no-opener"
+            href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md">
+            <Code className="mr-2" />
+              Submit an open action.
+          </Link>
+        </Button>
       </div>
-       <Actions />
+      <Actions />
     </main>
   )
 }
