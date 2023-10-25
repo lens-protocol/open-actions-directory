@@ -45,15 +45,13 @@ export function MobileNavigationMenu() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <Link href="/">
-              <div className='flex flex-row justify-center items-center'>
-                <Icon width="28px" height="28px" fill={fill} />
-                <p
-                  className="text-sm font-semibold"
-                >Lens Open Actions Directory
-                </p>
-              </div>
-            </Link>
+            <div className='flex flex-row justify-center items-center'>
+              <Icon width="28px" height="28px" fill={fill} />
+              <p
+                className="text-sm font-semibold"
+              >Lens Open Actions Directory
+              </p>
+            </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
