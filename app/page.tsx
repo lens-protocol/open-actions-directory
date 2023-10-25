@@ -34,7 +34,7 @@ export default function Home() {
           text-4xl
           text-icon
         '>
-          Open Actions
+          Smart Posts
         </h1>
         </div>
         <p
