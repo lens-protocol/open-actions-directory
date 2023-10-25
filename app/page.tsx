@@ -8,21 +8,6 @@ import { Code } from "lucide-react"
 import Link from 'next/link'
 
 export default function Home() {
-  const { theme, systemTheme } = useTheme()
-  
-  let fill
-  switch(theme) {
-    case 'light':
-      fill = 'black'
-      break
-    case 'dark':
-      fill = 'white'
-    case 'system':
-      fill = systemTheme === 'dark' ? 'white' : 'black'
-    default:
-      fill = 'white'
-  }
-
   return (
     <main className="
       flex-1 flex flex-col items-center

@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import { Icons } from "@/components/ui/icons"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -21,6 +22,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 
+
 type Action = {
   name: string
   description: string
@@ -38,15 +40,19 @@ function trimString(string) {
 }
 
 export function ActionCard({ action } : { action: Action }) {
+  const [loaded, setLoaded] = useState(false)
+  useEffect(() => {
+    setLoaded(true)
+  }, [])
+  if (!loaded) return null
   return (
     <Dialog>
-      <DialogTrigger>
-        <div className="
-          w-full
-          sm:w-[calc(50%-10px)]
-          md:w-[calc(33.3%-10px)]
-          xl:w-[290px]
-          mx-[5px] mb-[10px]">
+      <DialogTrigger className="
+        w-full
+        sm:w-[calc(50%-10px)]
+        md:w-[calc(33.3%-10px)]
+        xl:w-[290px]
+        mx-[5px] mb-[10px]">
         <Card className="hover:bg-slight hover:text-accent-foreground">
           <CardHeader className="space-y-1">
             <CardTitle
@@ -132,7 +138,6 @@ export function ActionCard({ action } : { action: Action }) {
                 </>
           </CardContent>
         </Card>
-      </div>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
