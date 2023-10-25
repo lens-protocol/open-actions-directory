@@ -8,7 +8,7 @@ To submit a new Open Action, [create a new PR](https://github.com/lens-protocol/
 - Detailed instructions of how to integrate Open Action (this should also be included in your README or other documentation).
 
 #### Open Action JSON
-To add the option action to the repo, fork the codebase and add the following JSON to `actions.json` file in the root directory:
+To add the option action to the repo, fork the codebase and add the following JSON to [`actions.json`](https://github.com/lens-protocol/open-actions-directory/blob/main/actions.json) file in the root directory:
 
 ```
 {
