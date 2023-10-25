@@ -11,15 +11,15 @@ export function LensIcon({
   size: number,
   className?: string
 }) {
-  const [mounted, setMounted] = useState(false)
+  // const [mounted, setMounted] = useState(false)
   
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  // useEffect(() => {
+  //   setMounted(true)
+  // }, [])
 
-  if (!mounted) {
-    fill = 'white'
-  }
+  // if (!mounted) {
+  //   fill = 'white'
+  // }
 
   return (
     <svg className={className} {...props} width={size} height={size} viewBox="15 15 150 150" xmlns="http://www.w3.org/2000/svg">
