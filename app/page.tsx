@@ -36,20 +36,18 @@ export default function Home() {
           '
         >
         <LensIcon
-          fill="#733de4"
           size={125}
-          className="hidden sm:block"
+          className="text-icon hidden sm:block"
         />
         <LensIcon
-          fill="#733de4"
           size={100}
-          className="sm:hidden block"
+          className="text-icon sm:hidden block"
         />
         <h1 className='
           font-black text-center
           sm:text-6xl sm:ml-3
           text-4xl
-          text-[#733de4]
+          text-icon
         '>
           Open Actions
         </h1>

@@ -53,6 +53,10 @@ module.exports = {
         slight: {
           DEFAULT: "hsl(var(--slight))",
           foreground: "hsl(var(--slight-foreground))",
+        },
+        icon: {
+          DEFAULT: "hsl(var(--icon))",
+          foreground: "hsl(var(--icon-foreground))",
         }
       },
       borderRadius: {
