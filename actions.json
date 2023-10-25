@@ -40,9 +40,9 @@
   },
   {
     "type": "rfp",
-    "name": "FriendTech",
+    "name": "friend.tech",
     "bounty": "5,000",
-    "description": "Purchase or sell a FriendTech key from a Lens app.",
+    "description": "Purchase or sell a friend.tech key from a Lens app.",
     "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
   },
   {
