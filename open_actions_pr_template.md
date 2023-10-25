@@ -1,6 +1,6 @@
 # Open Action PR Template
 
-To submit a new Open Action, create a new PR with the following information in the PR comment:
+To submit a new Open Action, [create a new PR](https://github.com/lens-protocol/open-actions-directory/compare) with the following information in the PR comment:
 
 - Open Action name
 - Open Action description
