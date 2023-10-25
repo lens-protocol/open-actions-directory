@@ -12,6 +12,15 @@ import {
 } from "@/components/ui/card"
 import { Gem, PersonStanding, Code } from "lucide-react"
 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
 type Action = {
   name: string
   description: string
@@ -30,97 +39,109 @@ function trimString(string) {
 
 export function ActionCard({ action } : { action: Action }) {
   return (
-    <div className="
-      w-full
-      sm:w-[calc(50%-10px)]
-      md:w-[calc(33.3%-10px)]
-      xl:w-[290px]
-      mx-[5px] mb-[10px]">
-      <Card className="hover:bg-slight hover:text-accent-foreground">
-        <CardHeader className="space-y-1">
-          <CardTitle
-            className="text-2xl min-h-[70px]"
-          >{action.name}</CardTitle>
-          <CardDescription
-            className="min-h-[58px]"
-          >
-            {trimString(action.description)}
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="grid gap-4">
-            <div className="grid gap-6">
-             {
-              action.link && action.type === 'action' && (
-                <Button
-                  className="w-full"
-                  variant="outline"
-                  asChild
-                >
-                  <Link
-                    href={action.link}
-                    target="_blank"
-                    rel="no-opener"
-                  >
-                    <Icons.gitHub className="mr-2 h-4 w-4" />
-                    Github
-                  </Link>
-                </Button>
-              )
-             }
+    <Dialog>
+      <DialogTrigger>
+        <div className="
+          w-full
+          sm:w-[calc(50%-10px)]
+          md:w-[calc(33.3%-10px)]
+          xl:w-[290px]
+          mx-[5px] mb-[10px]">
+        <Card className="hover:bg-slight hover:text-accent-foreground">
+          <CardHeader className="space-y-1">
+            <CardTitle
+              className="text-2xl min-h-[70px]"
+            >{action.name}</CardTitle>
+            <CardDescription
+              className="min-h-[58px]"
+            >
+              {trimString(action.description)}
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="grid gap-4">
+              <div className="grid gap-6">
               {
-                action.type === "rfp" && (
+                action.link && action.type === 'action' && (
                   <Button
-                    variant="outline"
                     className="w-full"
+                    variant="outline"
                     asChild
                   >
                     <Link
-                      href="https://airtable.com/app97gNZWvlLHLDur/shr1ghoUxV9DHuuDM"
+                      href={action.link}
                       target="_blank"
                       rel="no-opener"
                     >
-                    <Gem width="20" className="mr-2" />
-                    Bounty ${action.bounty}
-                    </Link>
-                    </Button>
-                )
-              }
-              </div>
-              <>
-                <div className="relative">
-                  <div className="absolute inset-0 flex items-center">
-                    <span className="w-full border-t" />
-                  </div>
-                </div>
-                {
-                  action.builder && (
-                    <Button
-                      className="w-full"
-                    >
-                    <PersonStanding className="mr-2" />
-                    Developer</Button>
-                  )
-                }
-                {
-                  action.type === 'rfp' && (
-                    <Button
-                      asChild
-                      className="w-full"
-                    >
-                      <Link
-                      target="_blank"
-                      rel="no-opener"
-                      href="https://docs.lens.xyz/v2/docs/creating-a-publication-action">
-                        <Code
-                          className="mr-2" />
-                        <p >Learn how to Build</p>
+                      <Icons.gitHub className="mr-2 h-4 w-4" />
+                      Github
                     </Link>
                   </Button>
+                )
+              }
+                {
+                  action.type === "rfp" && (
+                    <Button
+                      variant="outline"
+                      className="w-full"
+                      asChild
+                    >
+                      <Link
+                        href="https://airtable.com/app97gNZWvlLHLDur/shr1ghoUxV9DHuuDM"
+                        target="_blank"
+                        rel="no-opener"
+                      >
+                      <Gem width="20" className="mr-2" />
+                      Bounty ${action.bounty}
+                      </Link>
+                      </Button>
                   )
                 }
-              </>
-        </CardContent>
-      </Card>
-    </div>
+                </div>
+                <>
+                  <div className="relative">
+                    <div className="absolute inset-0 flex items-center">
+                      <span className="w-full border-t" />
+                    </div>
+                  </div>
+                  {
+                    action.builder && (
+                      <Button
+                        className="w-full"
+                      >
+                      <PersonStanding className="mr-2" />
+                      Developer</Button>
+                    )
+                  }
+                  {
+                    action.type === 'rfp' && (
+                      <Button
+                        asChild
+                        className="w-full"
+                      >
+                        <Link
+                        target="_blank"
+                        rel="no-opener"
+                        href="https://docs.lens.xyz/v2/docs/creating-a-publication-action">
+                          <Code
+                            className="mr-2" />
+                          <p >Learn how to Build</p>
+                      </Link>
+                    </Button>
+                    )
+                  }
+                </>
+          </CardContent>
+        </Card>
+      </div>
+      </DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{action.name}</DialogTitle>
+          <DialogDescription>
+            {action.description}
+          </DialogDescription>
+        </DialogHeader>
+      </DialogContent>
+    </Dialog>
   )
 }
