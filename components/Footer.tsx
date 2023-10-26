@@ -37,7 +37,9 @@ export function Footer() {
               target="_blank"
               rel="no-opener"
             >
+              <p className='text-xs'>
               Get notified about new bounties and events.
+              </p>
             </Link>
           </Button>
         </div>
