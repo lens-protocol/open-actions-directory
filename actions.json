@@ -10,49 +10,57 @@
   {
     "type": "rfp",
     "name": "Tipping in any ERC-20 token",
-    "description": "Enable tipping a Lens user in any ERC-20 token"
+    "description": "Enable tipping a Lens user in any ERC-20 token",
+    "tags": ["socialfi"]
   },
   {
     "type": "rfp",
     "name": "Betting Action",
     "bounty": "2,000",
-    "description": "Alice challenges Bob to a bet through a bet publication, staking an amount, choosing a deadline and juror(s) (one or multiple people who will decide the result). Bob accept and stakes too. The jurors decide after deadline happens1."
+    "description": "Alice challenges Bob to a bet through a bet publication, staking an amount, choosing a deadline and juror(s) (one or multiple people who will decide the result). Bob accept and stakes too. The jurors decide after deadline happens1.",
+    "tags": ["socialfi"]
   },
   {
     "type": "rfp",
     "name": "Group buying and crowdfunding.",
-    "description": "Example: Join me in minting this 1 of 1 on SuperRare or Zora"
+    "description": "Example: Join me in minting this 1 of 1 on SuperRare or Zora",
+    "tags": ["socialfi"]
   },
   {
     "type": "rfp",
     "name": "ENS",
     "description": "Interact with ENS from a Lens app - purchase, renew, or update an ENS domain.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
+    "tags": ["cross-chain"]
   },
   {
     "type": "rfp",
     "name": "Collect on Zora",
     "description": "Cross-chain action to enable collecting Zora NFTs from a Lane app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
+    "tags": ["socialfi"]
   },
   {
     "type": "rfp",
     "name": "friend.tech",
     "description": "Purchase or sell a friend.tech key from a Lens app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
+    "tags": ["socialfi", "cross-chain"]
   },
   {
     "type": "rfp",
     "name": "Aave",
     "bounty": "3,000",
     "description": "Interact with Aave protocol from a Lens app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
+    "tags": ["defi", "cross-chain"]
   },
   {
     "type": "rfp",
     "name": "Uniswap",
     "bounty": "3,000",
     "description": "Interact with Uniswap protocol from a Lens app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx"
+    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
+    "tags": ["defi", "cross-chain"]
   }
 ]
