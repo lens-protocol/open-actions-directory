@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 export function Footer() {
   return (
     <div className="border-t">
-      <div className='p-2 px-10'>
+      <div className='py-4 px-10'>
         <div
           className='
           flex-col
@@ -21,7 +21,7 @@ export function Footer() {
             href="https://t.me/+2j1jirznPt0zMmFh"
             target="_blank"
             rel="no-opener"
-            className='mb-[-14px] sm:mb-0'
+            className='mb-[-10px] sm:mb-0'
           >
             <p
               className='text-xs'
