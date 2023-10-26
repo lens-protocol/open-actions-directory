@@ -71,7 +71,7 @@ export function MobileNavigationMenu() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="https://docs.lens.xyz/v2/docs/what-is-lens" title="Build">
+              <ListItem href="https://docs.lens.xyz/v2/docs/creating-a-publication-action" title="Build">
               Build an Open Action.
               </ListItem>
               <ListItem href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md" title="Submit">

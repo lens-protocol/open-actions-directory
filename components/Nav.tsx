@@ -53,7 +53,7 @@ export default function Nav() {
                 </p>
               </div>
             </Link>
-            <a href="https://docs.lens.xyz/v2/docs/what-is-lens" target="_blank" rel='no-opener'>
+            <a href="https://docs.lens.xyz/v2/docs/creating-a-publication-action" target="_blank" rel='no-opener'>
               <p
                 className="hover:text-foreground text-muted-foreground text-sm ml-4"
               >Build an Open Action

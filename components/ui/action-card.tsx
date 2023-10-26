@@ -11,7 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Gem, PersonStanding, Code } from "lucide-react"
+import { Gem, PersonStanding, Code, PackagePlus } from "lucide-react"
 
 import {
   Dialog,
@@ -30,6 +30,7 @@ type Action = {
   link?: string
   builder?: string
   bounty?: string
+  builder_profile?: string
 }
 
 function trimString(string) {
@@ -88,20 +89,44 @@ export function ActionCard({ action } : { action: Action }) {
               }
                 {
                   action.type === "rfp" && (
-                    <Button
-                      variant="outline"
-                      className="w-full"
-                      asChild
-                    >
-                      <Link
-                        href="https://airtable.com/app97gNZWvlLHLDur/shr1ghoUxV9DHuuDM"
-                        target="_blank"
-                        rel="no-opener"
-                      >
-                      <Gem width="20" className="mr-2" />
-                      Bounty ${action.bounty}
-                      </Link>
-                      </Button>
+                    <>
+                      {
+                        action.bounty && (
+                          <Button
+                          variant="outline"
+                          className="w-full"
+                          asChild
+                        >
+                          <Link
+                            href="https://airtable.com/app97gNZWvlLHLDur/shr1ghoUxV9DHuuDM"
+                            target="_blank"
+                            rel="no-opener"
+                          >
+                          <Gem width="20" className="mr-2" />
+                          Bounty ${action.bounty}
+                          </Link>
+                        </Button>
+                        )
+                      }
+                      {
+                        !action.bounty && (
+                          <Button
+                            variant="outline"
+                            className="w-full"
+                            asChild
+                          >
+                            <Link
+                              href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md"
+                              target="_blank"
+                              rel="no-opener"
+                            >
+                            <PackagePlus width="20" className="mr-2" />
+                            Submit
+                            </Link>
+                          </Button>
+                        )
+                      }
+                    </>
                   )
                 }
                 </div>
@@ -112,12 +137,20 @@ export function ActionCard({ action } : { action: Action }) {
                     </div>
                   </div>
                   {
-                    action.builder && (
+                    action.builder_profile && (
                       <Button
+                       asChild
                         className="w-full"
                       >
-                      <PersonStanding className="mr-2" />
-                      Developer</Button>
+                      <Link
+                        href={action.builder_profile}
+                        target="_blank"
+                        rel="no-opener"
+                      >
+                        <PersonStanding className="mr-2" />
+                        by {action.builder}
+                      </Link>
+                      </Button>
                     )
                   }
                   {
