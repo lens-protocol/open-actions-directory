@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 @layer base {
   :root {
@@ -59,7 +58,6 @@
 /* 
 
 --slight: 240 4.8% 94.9%;
-
 --slight:  240 3.7% 8.9%;
 
 */

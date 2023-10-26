@@ -6,7 +6,11 @@ export function Footer() {
     <div className="border-t">
       <div className='p-2 px-10'>
         <div
-          className='flex justify-center items-center'
+          className='
+          flex-col
+          sm:flex-row
+          flex justify-center items-center
+          '
         >
           <Button
             variant="link"
