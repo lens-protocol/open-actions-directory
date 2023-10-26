@@ -41,16 +41,26 @@ export function Actions() {
   }
   
   return (
-    <div>
-      <div className='flex pt-6'>
-        <Tabs defaultValue="all" >
+    <div className='w-full xl:w-auto'>
+      <div className='flex pt-6 sm:flex-row flex-col'>
+        <Tabs
+          defaultValue="all"
+          className='sm:pl-6 xl:pl-2 pl-3'
+        >
           <TabsList>
             <TabsTrigger onClick={() => setView('all')} value="all">All</TabsTrigger>
             <TabsTrigger onClick={() => setView('actions')} value="actions">Actions</TabsTrigger>
             <TabsTrigger onClick={() => setView('bounties')} value="bounties">Bounties</TabsTrigger>
           </TabsList>
         </Tabs>
-        <RadioGroup defaultValue="card" className='flex ml-2'>
+        <RadioGroup
+          defaultValue="card"
+          className='
+          flex ml-2
+          pt-2 sm:pt-0
+          pl-1 sm:pl-0
+          '
+        >
           <div>
             <RadioGroupItem
               value="socialfi"
@@ -94,13 +104,13 @@ export function Actions() {
         </RadioGroup>
       </div>
       <div className='
-        pt-4 pb-10 flex flex-wrap
+        pt-4 pb-10 flex flex-1 flex-wrap
         px-2 sm:px-5 xl:px-0
         w-full sm:w-full xl:w-[1200px]
       '>
         {
           !data.length && (
-            <p className='mt-5 text-sm'>
+            <p className='ml-2 mt-5 text-sm'>
               No results.
             </p>
           )
