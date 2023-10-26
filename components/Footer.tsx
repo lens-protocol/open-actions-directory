@@ -21,6 +21,7 @@ export function Footer() {
             href="https://t.me/+2j1jirznPt0zMmFh"
             target="_blank"
             rel="no-opener"
+            className='mb-[-14px] sm:mb-0'
           >
             <p
               className='text-xs'
