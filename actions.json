@@ -5,7 +5,10 @@
     "description": "Basic example of cross-chain Open Action",
     "link": "https://github.com/defispartan/lens-cross-chain-hello-world",
     "builder": "DefiSpartan",
-    "builder_profile": "https://github.com/defispartan"
+    "builder_profile": "https://github.com/defispartan",
+    "apps": [],
+    "block_explorer_link": "",
+    "special_security_and_execution_considerations": ""
   },
   {
     "type": "rfp",
