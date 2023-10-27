@@ -74,7 +74,7 @@ export function Actions() {
               htmlFor="socialfi"
               className="flex flex-col items-center justify-between rounded-md border-2 bg-popover p-[11px] hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
-              SocialFI
+              💬 SocialFI
             </Label>
           </div>
           <div>
@@ -86,7 +86,7 @@ export function Actions() {
               htmlFor="defi"
               className="flex flex-col items-center justify-between rounded-md border-2 bg-popover p-[11px] hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
-              DeFi
+              💰 DeFi
             </Label>
           </div>
           <div>
@@ -98,7 +98,7 @@ export function Actions() {
               htmlFor="cross-chain"
               className="flex flex-col items-center justify-between rounded-md border-2 bg-popover p-[11px] hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
-              Cross Chain
+              ⛓️ Cross Chain
             </Label>
           </div>
         </RadioGroup>

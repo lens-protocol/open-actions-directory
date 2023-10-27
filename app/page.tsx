@@ -2,7 +2,6 @@
 
 import { Actions } from '@/components/actions'
 import { LensIcon } from '@/components/LensIcon'
-import { useTheme } from 'next-themes'
 import { Button } from "@/components/ui/button"
 import { Code } from "lucide-react"
 import Link from 'next/link'
