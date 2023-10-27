@@ -81,6 +81,9 @@ export function MobileNavigationMenu() {
               <ListItem href="https://docs.lens.xyz/v2/docs/what-is-lens" title="Docs">
                 Check out the Lens Developer Documentation.
               </ListItem>
+              <ListItem href="https://t.me/+2j1jirznPt0zMmFh" title="Community">
+                Join the Lens Dev Garden Telegram chat.
+              </ListItem>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
