@@ -15,10 +15,13 @@ To add the option action to the repo, fork the codebase and add the following JS
 
 ```
 {
-  type: "action",
-  name: "<action-name>",
-  description: "<action-description>",
-  link: "<link-to-codebase>",
-  builder: "<link-to-your-personal-social-profile-of-choice>"
+  "type": "action",
+  "name": "<action-name>",
+  "description": "<action-description>",
+  "link": "<link-to-codebase>",
+  "builder": "<link-to-your-personal-social-profile-of-choice>",
+  "apps": [],
+  "block_explorer_link": "",
+  "special_security_and_execution_considerations": ""
 }
 ```
