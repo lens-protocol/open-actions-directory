@@ -40,7 +40,7 @@ export default function Home() {
         <p
           className='text-muted-foreground text-center px-10'
         >
-        With Open Actions, users and developers “bring-your-own-smart-contracts” to enable any external smart contract-action on a Lens publication.
+        With Open Actions, developers can build Smart Posts - interactions with any external smart contract in a Lens publication.
         </p>
       </div>
       <div className='w-full sm:w-auto px-4'>
