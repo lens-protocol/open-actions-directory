@@ -21,7 +21,7 @@ To add the option action to the repo, fork the codebase and add the following JS
   "link": "<link-to-codebase>",
   "builder": "<link-to-your-personal-social-profile-of-choice>",
   "apps": [],
-  "block_explorer_link": "",
-  "special_security_and_execution_considerations": ""
+  "block_explorer_link": "<block-explorer-link>",
+  "special_security_and_execution_considerations": "<documentation-of-special-security-and-execution-considerations>"
 }
 ```
