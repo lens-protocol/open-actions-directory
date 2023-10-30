@@ -49,20 +49,20 @@ export default function Nav() {
                 <Icon width="28px" height="28px" fill={fill} />
                 <p
                   className="text-sm font-semibold"
-                >Lens Open Actions Directory
+                >Lens Smart Posts Directory
                 </p>
               </div>
             </Link>
             <a href="https://docs.lens.xyz/v2/docs/creating-a-publication-action" target="_blank" rel='no-opener'>
               <p
                 className="hover:text-foreground text-muted-foreground text-sm ml-5"
-              >Build an Open Action
+              >Build a Smart Post
               </p>
             </a>
             <a href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md" target="_blank" rel='no-opener'>
               <p
                 className="text-muted-foreground text-sm ml-5 hover:text-foreground"
-              >Submit an Open Action
+              >Submit an Smart Post
               </p>
             </a>
             <a href="https://docs.lens.xyz/v2/docs/what-is-lens" target="_blank" rel='no-opener'>
