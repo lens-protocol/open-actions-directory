@@ -2,8 +2,8 @@
   {
     "type": "action",
     "name": "Basic cross-chain action",
-    "description": "Basic example of cross-chain Open Action",
-    "link": "https://github.com/defispartan/lens-cross-chain-hello-world",
+    "description": "Basic example of a Lens Open Action",
+    "link": "https://github.com/defispartan/lens-hello-world-open-action",
     "builder": "DefiSpartan",
     "builder_profile": "https://github.com/defispartan",
     "apps": [],
