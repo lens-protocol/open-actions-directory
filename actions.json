@@ -1,8 +1,8 @@
 [
   {
     "type": "action",
-    "name": "Basic cross-chain action",
-    "description": "Basic example of a Lens Open Action",
+    "name": "Basic Lens Smart Post",
+    "description": "Basic example of a Lens Open Action implementing a Smart Post",
     "link": "https://github.com/defispartan/lens-hello-world-open-action",
     "builder": "DefiSpartan",
     "builder_profile": "https://github.com/defispartan",
