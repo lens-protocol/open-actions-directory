@@ -53,7 +53,7 @@ export default function Home() {
             rel="no-opener"
             href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md">
             <Code className="mr-2" />
-              Submit a new open action.
+              Submit a new Smart Post.
           </Link>
         </Button>
       </div>
