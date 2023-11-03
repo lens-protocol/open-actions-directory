@@ -88,7 +88,7 @@ export function ActionCard({ action } : { action: Action }) {
                 )
               }
                 {
-                  action.type === "rfp" && (
+                  action.type === "rfb" && (
                     <>
                       {
                         action.bounty && (
@@ -154,7 +154,7 @@ export function ActionCard({ action } : { action: Action }) {
                     )
                   }
                   {
-                    action.type === 'rfp' && (
+                    action.type === 'rfb' && (
                       <Button
                         asChild
                         className="w-full"

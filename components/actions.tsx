@@ -20,8 +20,8 @@ export function Actions() {
     }
   }
 
-  if (view === 'bounties') {
-    data = actions.filter(a => a.bounty)
+  if (view === 'rfb') {
+    data = actions.filter(a => a.type === 'rfb')
   }
   if (view === 'actions') {
     data = actions.filter(a => a.type === 'action')
@@ -50,7 +50,7 @@ export function Actions() {
           <TabsList>
             <TabsTrigger onClick={() => setView('all')} value="all">All</TabsTrigger>
             <TabsTrigger onClick={() => setView('actions')} value="actions">Actions</TabsTrigger>
-            <TabsTrigger onClick={() => setView('bounties')} value="bounties">Bounties</TabsTrigger>
+            <TabsTrigger onClick={() => setView('rfb')} value="rfb">Ideas and bounties</TabsTrigger>
           </TabsList>
         </Tabs>
         <RadioGroup
