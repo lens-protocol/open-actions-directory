@@ -49,7 +49,7 @@ export default function Nav() {
                 <Icon width="28px" height="28px" fill={fill} />
                 <p
                   className="text-sm font-semibold"
-                >Lens Smart Posts Directory
+                >Lens Smart Posts Library
                 </p>
               </div>
             </Link>
