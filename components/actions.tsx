@@ -49,7 +49,7 @@ export function Actions() {
         >
           <TabsList>
             <TabsTrigger onClick={() => setView('all')} value="all">All</TabsTrigger>
-            <TabsTrigger onClick={() => setView('actions')} value="actions">Builds</TabsTrigger>
+            <TabsTrigger onClick={() => setView('actions')} value="actions">Built</TabsTrigger>
             <TabsTrigger onClick={() => setView('rfb')} value="rfb">Ideas</TabsTrigger>
           </TabsList>
         </Tabs>
