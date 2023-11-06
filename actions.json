@@ -39,7 +39,7 @@
   },
   {
     "type": "rfb",
-    "name": "Group buying and crowdfunding.",
+    "name": "Crowdfunding.",
     "description": "Example: Join me in minting this 1 of 1 on SuperRare or Zora",
     "tags": ["socialfi"]
   },
