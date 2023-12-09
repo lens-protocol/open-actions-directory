@@ -24,11 +24,20 @@
   },
   {
     "type": "idea",
-    "name": "friend.tech",
-    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.p.",
+    "name": "Pay to Read",
+    "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
     "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
     "tag": "SocialFi",
-    "hero": "ft.svg",
+    "hero": "pay-to-read.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "Rent a Post",
+    "description": "Turn your digital space into a revenue source by renting out post space for ads.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "rent-a-post.svg",
     "width": 306
   },
   {
@@ -39,6 +48,24 @@
     "tag": "SocialFi",
     "hero": "lenshandles.svg",
     "width": 302
+  },
+  {
+    "type": "idea",
+    "name": "Promote Communities with MadFi",
+    "description": "Discover and engage with diverse communities through the innovative MadFi platform.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "promote-communities.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "friend.tech",
+    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.p.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "ft.svg",
+    "width": 306
   },
   {
     "type": "idea",
@@ -60,32 +87,13 @@
   },
   {
     "type": "idea",
-    "name": "Pay to Read",
-    "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
+    "name": "Deposit into an Aave Liquidity Pool",
+    "description": "Efficiently manage and grow your collect revenue by depositing into Aave pools.",
     "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
-    "tag": "SocialFi",
-    "hero": "pay-to-read.svg",
+    "tag": "DeFi",
+    "hero": "aave.svg",
     "width": 306
   },
-  {
-    "type": "idea",
-    "name": "Rent a Post",
-    "description": "Turn your digital space into a revenue source by renting out post space for ads.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
-    "tag": "SocialFi",
-    "hero": "rent-a-post.svg",
-    "width": 306
-  },
-  {
-    "type": "idea",
-    "name": "Promote Communities with MadFi",
-    "description": "Discover and engage with diverse communities through the innovative MadFi platform.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
-    "tag": "SocialFi",
-    "hero": "promote-communities.svg",
-    "width": 306
-  },
-
   {
     "type": "idea",
     "name": "Use Uniswap to Buy Crypto",
@@ -95,15 +103,7 @@
     "hero": "uniswap.svg",
     "width": 306
   },
-  {
-    "type": "idea",
-    "name": "Deposit into an Aave Liquidity Pool",
-    "description": "Efficiently manage and grow your collect revenue by depositing into Aave pools.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
-    "tag": "DeFi",
-    "hero": "aave.svg",
-    "width": 306
-  },
+
   {
     "type": "idea",
     "name": "Cross-Chain Minting with Decent",

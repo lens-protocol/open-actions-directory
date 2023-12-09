@@ -31,12 +31,9 @@ export function Actions() {
           className='font-[19px] font-semibold'
         >DeFi</p>
         <div className='
-          mt-4
-          pb-10
-          px-2 sm:px-5 xl:px-0
-          w-full
-          xl:w-[1167px]
-          grid grid-cols-3 gap-2
+          mt-4 pb-10 grid gap-6 w-full
+          sm:grid-cols-2
+          xl:w-[1167px] xl:grid-cols-3 xl:px-0
         '>
           {
             defiActions.map((action, index) => (
