@@ -1,81 +1,116 @@
 [
   {
     "type": "action",
-    "name": "Basic Lens Smart Post",
-    "description": "Basic example of a Lens Open Action implementing a Smart Post",
+    "name": "Hello World",
+    "description": "Scaffolding for a Lens Open Action implementing a Smart Post",
+    "long-description": "The 'Hello World CLI Kit' simplifies the journey into digital content creation, especially for newcomers to smart posts. It offers the tools and guidance, making the process more approachable and less intimidating for those new to Open Actions.",
     "link": "https://github.com/defispartan/lens-hello-world-open-action",
     "builder": "DefiSpartan",
     "builder_profile": "https://github.com/defispartan",
-    "apps": [],
     "block_explorer_link": "",
-    "special_security_and_execution_considerations": ""
+    "special_security_and_execution_considerations": "",
+    "hero": "hello-world.svg",
+    "tag": "SocialFi",
+    "width": 306
   },
   {
-    "type": "rfb",
-    "name": "Tipping in any ERC-20 token",
-    "description": "Enable tipping a Lens user in any ERC-20 token",
-    "tags": ["socialfi"]
+    "type": "idea",
+    "name": "Tipping",
+    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "tipping.svg",
+    "width": 264
   },
   {
-    "type": "rfb",
-    "name": "Betting",
-    "bounty": "2,000",
-    "description": "Alice challenges Bob to a bet through a bet publication, staking an amount, choosing a deadline and juror(s) (one or multiple people who will decide the result). Bob accept and stakes too. The jurors decide after deadline happens1.",
-    "tags": ["socialfi"]
-  },
-  {
-    "type": "rfb",
-    "name": "Smart ads",
-    "bounty": "2,000",
-    "description": "When a user creates a new post, they can choose to enable 'smart ads' which will associate relevant ads to that post. Or, use your imagination for what this might look like.",
-    "tags": ["socialfi"]
-  },
-  {
-    "type": "rfb",
-    "name": "Pay to read the rest",
-    "bounty": "2,000",
-    "description": "Allow creators to directly monetize their long-form content while users pay to read the full post.",
-    "tags": ["socialfi"]
-  },
-  {
-    "type": "rfb",
-    "name": "Crowdfunding.",
-    "description": "Example: Join me in minting this 1 of 1 on SuperRare or Zora",
-    "tags": ["socialfi"]
-  },
-  {
-    "type": "rfb",
-    "name": "ENS",
-    "description": "Interact with ENS from a Lens app - purchase, renew, or update an ENS domain.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
-    "tags": ["cross-chain"]
-  },
-  {
-    "type": "rfb",
-    "name": "Collect on Zora",
-    "description": "Cross-chain action to enable collecting Zora NFTs from a Lane app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
-    "tags": ["socialfi"]
-  },
-  {
-    "type": "rfb",
+    "type": "idea",
     "name": "friend.tech",
-    "description": "Purchase or sell a friend.tech key from a Lens app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
-    "tags": ["socialfi", "cross-chain"]
+    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.p.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "ft.svg",
+    "width": 306
   },
   {
-    "type": "rfb",
-    "name": "Aave",
-    "description": "Interact with Aave protocol from a Lens app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
-    "tags": ["defi", "cross-chain"]
+    "type": "idea",
+    "name": "Buy and Sell Lens Handles",
+    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "lenshandles.svg",
+    "width": 302
   },
   {
-    "type": "rfb",
-    "name": "Uniswap",
-    "description": "Interact with Uniswap protocol from a Lens app.",
-    "link": "https://github.com/shadcn-ui/ui/blob/main/apps/www/app/examples/cards/components/create-account.tsx",
-    "tags": ["defi", "cross-chain"]
+    "type": "idea",
+    "name": "Collect on Zora",
+    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "zora.svg",
+    "width": 302
+  },
+  {
+    "type": "idea",
+    "name": "Event Discounts with Chainlink",
+    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "chainlink.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "Pay to Read",
+    "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "pay-to-read.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "Rent a Post",
+    "description": "Turn your digital space into a revenue source by renting out post space for ads.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "rent-a-post.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "Promote Communities with MadFi",
+    "description": "Discover and engage with diverse communities through the innovative MadFi platform.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "SocialFi",
+    "hero": "promote-communities.svg",
+    "width": 306
+  },
+
+  {
+    "type": "idea",
+    "name": "Use Uniswap to Buy Crypto",
+    "description": "Effortlessly buy crypto and swap tokens within your feed utilizing native Uniswap functionality.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "DeFi",
+    "hero": "uniswap.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "Deposit into an Aave Liquidity Pool",
+    "description": "Efficiently manage and grow your collect revenue by depositing into Aave pools.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "DeFi",
+    "hero": "aave.svg",
+    "width": 306
+  },
+  {
+    "type": "idea",
+    "name": "Cross-Chain Minting with Decent",
+    "description": "Experience limitless creativity by minting assets cross-chain with Decent.xyz.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "tag": "DeFi",
+    "hero": "decent.svg",
+    "width": 306
   }
 ]

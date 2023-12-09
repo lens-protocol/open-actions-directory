@@ -1,24 +1,15 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Icons } from "@/components/ui/icons"
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 import {
   Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card"
-import { Gem, PersonStanding, Code, PackagePlus } from "lucide-react"
 
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
 
@@ -30,14 +21,10 @@ type Action = {
   link?: string
   builder?: string
   bounty?: string
-  builder_profile?: string
-}
-
-function trimString(string) {
-  if (string.length > 75) {
-    return string.substring(0, 75) + '...'
-  }
-  return string
+  builder_profile?: string,
+  width?: number,
+  hero: string,
+  tag: string
 }
 
 export function ActionCard({ action } : { action: Action }) {
@@ -48,139 +35,123 @@ export function ActionCard({ action } : { action: Action }) {
   if (!loaded) return null
   return (
     <Dialog>
-      <div className="
-        w-full
-        sm:w-[calc(50%-10px)]
-        md:w-[calc(33.3%-10px)]
-        xl:w-[290px]
-        mx-[5px] mb-[10px]">
-        <Card className="hover:bg-slight hover:text-accent-foreground">
-          <DialogTrigger>
-            <CardHeader className="space-y-1">
-              <CardTitle
-                className="text-2xl min-h-[70px]"
-              >{action.name}</CardTitle>
-              <CardDescription
-                className="min-h-[58px]"
-              >
-                {trimString(action.description)}
-              </CardDescription>
-            </CardHeader>
-          </DialogTrigger>
-          <CardContent className="grid gap-4">
-              <div className="grid gap-6">
-              {
-                action.link && action.type === 'action' && (
-                  <Button
-                    className="w-full"
-                    variant="outline"
-                    asChild
-                  >
-                    <Link
-                      href={action.link}
-                      target="_blank"
-                      rel="no-opener"
-                    >
-                      <Icons.gitHub className="mr-2 h-4 w-4" />
-                      Github
-                    </Link>
-                  </Button>
-                )
-              }
-                {
-                  action.type === "rfb" && (
-                    <>
-                      {
-                        action.bounty && (
-                          <Button
-                          variant="outline"
-                          className="w-full"
-                          asChild
-                        >
-                          <Link
-                            href="https://airtable.com/app97gNZWvlLHLDur/shr1ghoUxV9DHuuDM"
-                            target="_blank"
-                            rel="no-opener"
-                          >
-                          <Gem width="20" className="mr-2" />
-                          Bounty ${action.bounty}
-                          </Link>
-                        </Button>
-                        )
-                      }
-                      {
-                        !action.bounty && (
-                          <Button
-                            variant="outline"
-                            className="w-full"
-                            asChild
-                          >
-                            <Link
-                              href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md"
-                              target="_blank"
-                              rel="no-opener"
-                            >
-                            <PackagePlus width="20" className="mr-2" />
-                            Submit
-                            </Link>
-                          </Button>
-                        )
-                      }
-                    </>
-                  )
-                }
-                </div>
-                <>
-                  <div className="relative">
-                    <div className="absolute inset-0 flex items-center">
-                      <span className="w-full border-t" />
-                    </div>
-                  </div>
-                  {
-                    action.builder_profile && (
-                      <Button
-                       asChild
-                        className="w-full"
-                      >
-                      <Link
-                        href={action.builder_profile}
-                        target="_blank"
-                        rel="no-opener"
-                      >
-                        <PersonStanding className="mr-2" />
-                        by {action.builder}
-                      </Link>
-                      </Button>
-                    )
-                  }
-                  {
-                    action.type === 'rfb' && (
-                      <Button
-                        asChild
-                        className="w-full"
-                      >
-                        <Link
-                        target="_blank"
-                        rel="no-opener"
-                        href="https://docs.lens.xyz/v2/docs/creating-a-publication-action">
-                          <Code
-                            className="mr-2" />
-                          <p>Build</p>
-                      </Link>
-                    </Button>
-                    )
-                  }
-                </>
-          </CardContent>
-        </Card>
-      </div>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>{action.name}</DialogTitle>
-          <DialogDescription>
-            {action.description}
-          </DialogDescription>
-        </DialogHeader>
+      <DialogTrigger asChild>
+        <div className="
+          w-full mx-[5px] mb-[40px]
+          
+          ">
+          <Card className="
+            border-2 border-[#fbfaf9] bg-[#fbfaf9] rounded-[8px] flex
+            justify-center content-start
+            h-[192px]
+          ">
+            <Image
+              src={`/svg/${action.hero}`}
+              width={action.width || 264}
+              height={404}
+              alt={action.name}
+              className='mt-[-1px]'
+            />
+          </Card>
+          <div>
+            <p
+              className='font-medium mt-5'
+            >{action.name}</p>
+            <p
+              className='text-[#848281] text-sm mt-2'
+            >{action.description}</p>
+          </div>
+        </div>
+      </DialogTrigger>
+      {/* Active Dialog */}
+      <DialogContent
+        className='
+        min-w-[673px]
+        bg-[#fbfaf9]
+        p-0
+        '
+      >
+        <div
+        className='
+        flex justify-center
+        '>
+          <Image
+            src={`/svg/${action.hero}`}
+            width={490}
+            height={500}
+            alt={action.name}
+          />
+        </div>
+        <div
+          className='pt-6  pb-8 px-8 pt-2 bg-white rounded-b-lg'
+        >
+          <div className='flex items-center'>
+            <p
+              className='font-semibold text-[19px]'
+            >{action.name}</p>
+            <Image
+              src="/svg/idea-badge.svg"
+              width={40}
+              height={20}
+              alt='Idea'
+              className='ml-2'
+            />
+          </div>
+          <p
+            className='text-[#848281] text-md mt-1 font-light'
+          >
+            {action.tag}
+          </p>
+          <p
+            className='mt-4 text-[#848281] font-light'
+          >
+            {action['long-description']}
+          </p>
+          <div className='mt-10 flex'>
+            <Link
+              href="https://docs.lens.xyz/docs/creating-a-publication-action"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='
+              bg-[#343433]
+              rounded-full text-white px-[16px] py-[11px]
+              text-sm
+              flex items-center
+              '
+            >
+              <p>View Docs</p>
+              <Image
+                src={'/svg/arrow-white.svg'}
+                alt="Arrow"
+                height={13}
+                width={13}
+                className='ml-1'
+              />
+            </Link>
+            <Link
+              href="https://docs.lens.xyz/docs/creating-a-publication-action"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='
+                ml-3
+                bg-[#F0F0F0]
+                rounded-full text-black px-[16px] py-[11px]
+                text-sm
+                flex items-center
+                hover:bg-[#D9D9D9]
+              '
+            >
+              <p>Submit Post</p>
+              <Image
+                src={'/svg/arrow.svg'}
+                alt="Arrow"
+                height={13}
+                width={13}
+                className='ml-1'
+              />
+            </Link>
+          </div>
+        </div>
       </DialogContent>
     </Dialog>
   )

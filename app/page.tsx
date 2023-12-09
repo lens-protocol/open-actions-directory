@@ -1,61 +1,116 @@
 'use client'
 
 import { Actions } from '@/components/actions'
-import { LensIcon } from '@/components/LensIcon'
-import { Button } from "@/components/ui/button"
-import { Code } from "lucide-react"
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <main className="
-      flex-1 flex flex-col items-center
-      sm:pt-24 pt-10
+      flex-1 flex flex-col items-center pt-10
+      sm:pt-28
     ">
-      <div className='flex flex-col flex-1 justify-center items-center'>
+      <div
+      className='
+      flex px-8 w-full
+      flex-col md:flex-row
+      xl:w-[1167px] xl:px-0
+      '
+      >
         <div
           className='
-          flex items-center content-center
-          px-2
+          w-full
+          lg:w-[565px]
           '
         >
-        <LensIcon
-          size={125}
-          className="text-icon hidden sm:block"
-        />
-        <LensIcon
-          size={100}
-          className="text-icon sm:hidden block"
-        />
-        <h1 className='
-          font-black text-center
-          sm:text-6xl sm:ml-3
-          text-4xl
-          text-icon
-        '>
-          Smart Posts
-        </h1>
+          <div className='
+            flex items-center
+          '>
+            <Image
+              src="/svg/logo.svg"
+              width={27}
+              height={18}
+              alt="Smart Posts Directory"
+            />
+            <p className='ml-2 font-medium'>Lens</p>
+            <div className='ml-4 w-[1px] h-[14px] bg-[#E6E6E6]' />
+            <p className='ml-4 text-[#848483] font-light font-[15px]'>Open Actions</p>
+          </div>
+          <h1
+            className='
+            text-[32px] leading-[36px] pr-5
+            font-bold mt-12 
+            lg:pr-0
+            lg:text-[48px] lg:mt-7 lg:leading-[52.8px]
+            '
+          >
+            Discover and build creative Smart Posts.
+          </h1>
+          <p
+            className='text-[#34343399] text-md mt-5 pr-10'
+          >
+            With Open Actions, developers can build Smart Posts. Interactions with any external smart contract in a Lens publication. Dive into Lens posts and unleash the full power of Web3 for innovative content creation.
+          </p>
+          <div className='mt-7 flex'>
+            <Link
+              href="https://docs.lens.xyz/docs/creating-a-publication-action"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='
+              bg-[#343433]
+              rounded-full text-white px-[16px] py-[11px]
+              text-sm
+              flex items-center
+              '
+            >
+               <p>View Docs</p>
+               <Image
+                src={'/svg/arrow-white.svg'}
+                alt="Arrow"
+                height={14}
+                width={14}
+                className='ml-1'
+              />
+            </Link>
+            <Link
+              href="https://docs.lens.xyz/docs/creating-a-publication-action"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='
+              ml-3
+              bg-[#F0F0F0]
+              rounded-full text-black px-[16px] py-[11px]
+              text-sm
+              flex items-center
+              hover:bg-[#D9D9D9]
+              cursor-pointer
+              '
+            >
+              <p>Submit Post</p>
+              <Image
+                src={'/svg/arrow.svg'}
+                alt="Arrow"
+                height={14}
+                width={14}
+                className='ml-1'
+              />
+            </Link>
+          </div>
         </div>
-        <p
-          className='text-muted-foreground text-center px-10'
+        <div
+          className='flex justify-center items-center'
         >
-        With Open Actions, developers can build Smart Posts - interactions with any external smart contract in a Lens publication.
-        </p>
-      </div>
-      <div className='w-full sm:w-auto px-4'>
-        <Button
-          asChild
-          className="px-24 mt-8 py-6 w-full"
-          variant='outline'
-        >
-          <Link
-            target="_blank"
-            rel="no-opener"
-            href="https://github.com/lens-protocol/open-actions-directory/blob/main/open_actions_pr_template.md">
-            <Code className="mr-2" />
-              Submit a new Smart Post.
-          </Link>
-        </Button>
+          <Image 
+            src="/svg/hero.svg"
+            width={500}
+            height={390}
+            alt="Hero"
+            className='
+            ml-[-40px] mt-8
+            lg:ml-0 lg:mt-0
+            '
+          />
+        </div>
       </div>
       <Actions />
     </main>

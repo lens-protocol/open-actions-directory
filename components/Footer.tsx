@@ -1,48 +1,51 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 export function Footer() {
   return (
     <div className="border-t">
-      <div className='py-4 px-10'>
+      <div className='
+        py-4 px-10
+        flex justify-center
+      '>
         <div
           className='
-          flex-col
-          sm:flex-row
-          flex justify-center items-center
+          flex py-5
+          flex justify-center
+          w-[1167px]
           '
         >
-          <Button
-            variant="link"
-            className='text-muted-foreground hover:text-foreground'
-            asChild
-          >
-          <Link
-            href="https://t.me/+2j1jirznPt0zMmFh"
-            target="_blank"
-            rel="no-opener"
-            className='mb-[-10px] sm:mb-0'
-          >
+          <div>
+            <Image
+              src="/svg/lens-grey.svg"
+              width={34}
+              height={34}
+              alt="Lens logo"
+            />
+          </div>
+          <div className='ml-20'>
+            <p className='font-medium'>Lens Smart Posts</p>
             <p
-              className='text-xs'
-            >Join Lens Dev Garden</p>
-          </Link>
-          </Button>
-          <Button
-            asChild
-            className='text-muted-foreground hover:text-foreground'
-            variant="link"
-          >
-            <Link
-              href="https://airtable.com/app97gNZWvlLHLDur/shrWByEVMvQWpcv6w"
-              target="_blank"
-              rel="no-opener"
+              className='mt-1 text-sm text-[#a7a7a7] max-w-[622px] leading-[21px]'
             >
-              <p className='text-xs'>
-              Get notified about new bounties and events.
-              </p>
-            </Link>
-          </Button>
+            These contributions are made by the Lens community. Remember, they&apos;re not verified or audited by the Lens Team, integrate at your own risk. We encourage you to thoroughly research and verify the code before fully engaging with it.
+            </p>
+            <div className='mt-4'>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-sm text-[#a7a7a7] '
+              >GitHub</a>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                className='ml-5 text-sm text-[#a7a7a7] '
+              >Documentation</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
