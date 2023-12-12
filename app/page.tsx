@@ -32,12 +32,13 @@ export default function Home() {
               height={18}
               alt="Smart Posts Directory"
             />
-            <p className='ml-2 font-medium'>Lens</p>
+            <p className='ml-2 font-medium text-[#343433]'>Lens</p>
             <div className='ml-4 w-[1px] h-[14px] bg-[#E6E6E6]' />
-            <p className='ml-4 text-[#848483] font-light font-[15px]'>Open Actions</p>
+            <p className='ml-3 text-[#848483] font-light font-[15px]'>Open Actions</p>
           </div>
           <h1
             className='
+            text-[#343433] tracking-[-0.020em]
             text-[32px] leading-[36px] pr-5
             font-bold mt-12 
             lg:pr-0
@@ -47,7 +48,11 @@ export default function Home() {
             Discover and build creative Smart Posts.
           </h1>
           <p
-            className='text-[#34343399] text-md mt-5 pr-10'
+            className='
+            pr-10 md:pr-20
+            text-[#858585] mt-5
+            tracking-[-0.025em] font-[400]
+            '
           >
             With Open Actions, developers can build Smart Posts. Interactions with any external smart contract in a Lens publication. Dive into Lens posts and unleash the full power of Web3 for innovative content creation.
           </p>
@@ -86,7 +91,9 @@ export default function Home() {
               cursor-pointer
               '
             >
-              <p>Submit Post</p>
+              <p
+                className='text-[#343433]'
+              >Submit Post</p>
               <Image
                 src={'/svg/arrow.svg'}
                 alt="Arrow"

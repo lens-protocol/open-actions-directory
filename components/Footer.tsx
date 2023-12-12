@@ -12,20 +12,23 @@ export function Footer() {
         <div
           className='
           flex py-5
-          flex justify-center
+          flex items-start
           w-[1167px]
           '
         >
-          <div>
-            <Image
-              src="/svg/lens-grey.svg"
-              width={34}
-              height={34}
-              alt="Lens logo"
-            />
-          </div>
-          <div className='ml-20'>
-            <p className='font-medium'>Lens Smart Posts</p>
+          <Image
+            src="/svg/lens-grey.svg"
+            width={34}
+            height={34}
+            alt="Lens logo"
+            className='hidden md:block'
+          />
+          <div className='
+          ml-0
+          md:ml-20'>
+            <p className='
+            text-[#343433]
+            font-medium'>Lens Smart Posts</p>
             <p
               className='mt-1 text-sm text-[#a7a7a7] max-w-[622px] leading-[21px]'
             >
@@ -33,16 +36,20 @@ export function Footer() {
             </p>
             <div className='mt-4'>
               <a
-                href=""
+                href="https://github.com/lens-protocol/open-actions-directory"
                 target="_blank"
                 rel="noopener noreferrer"
-                className='text-sm text-[#a7a7a7] '
+                className='
+                hover:text-[#343433]
+                text-sm text-[#a7a7a7] '
               >GitHub</a>
               <a
-                href=""
+                href="https://docs.lens.xyz/docs/creating-a-publication-action"
                 target="_blank"
                 rel="noopener noreferrer"
-                className='ml-5 text-sm text-[#a7a7a7] '
+                className='
+                hover:text-[#343433]
+                ml-5 text-sm text-[#a7a7a7] '
               >Documentation</a>
             </div>
           </div>

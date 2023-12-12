@@ -35,30 +35,39 @@ export function ActionCard({ action } : { action: Action }) {
   if (!loaded) return null
   return (
     <Dialog>
-      <DialogTrigger asChild>
+      <DialogTrigger asChild className="cursor-pointer">
         <div className="
           w-full mx-[5px] mb-[40px]
-          
-          ">
+          transition
+                    ">
           <Card className="
-            border-2 border-[#fbfaf9] bg-[#fbfaf9] rounded-[8px] flex
+            border-0
+            bg-[#fbfaf9] rounded-[8px] flex
             justify-center content-start
             h-[192px]
+            hover:bg-[#f1eeee]
+            [&>*:nth-child(1)]:hover:scale-110
+            overflow-hidden	transition
           ">
-            <Image
-              src={`/svg/${action.hero}`}
-              width={action.width || 264}
-              height={404}
-              alt={action.name}
-              className='mt-[-1px]'
-            />
+          <Image
+            src={`/svg/${action.hero}`}
+            width={action.width || 264}
+            height={404}
+            alt={action.name}
+            className='transition'
+          />
           </Card>
           <div>
             <p
-              className='font-medium mt-5'
+              className='
+              text-[#343433]
+              font-[500] mt-5'
             >{action.name}</p>
             <p
-              className='text-[#848281] text-sm mt-2'
+              className='
+              font-[400]
+              text-[#848281] text-sm mt-2
+              '
             >{action.description}</p>
           </div>
         </div>
@@ -66,9 +75,13 @@ export function ActionCard({ action } : { action: Action }) {
       {/* Active Dialog */}
       <DialogContent
         className='
-        min-w-[673px]
-        bg-[#fbfaf9]
+        border-0
+        w-[360px]
+        md:min-w-[480px]
+        lg:min-w-[673px]
         p-0
+        rounded
+        sm:rounded
         '
       >
         <div

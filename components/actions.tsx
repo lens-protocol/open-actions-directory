@@ -14,7 +14,9 @@ export function Actions() {
       lg:mt-20
       '>
         <p
-          className='font-[19px] font-semibold'
+          className='
+          text-[#343433] font-semibold
+          text-[19px]'
         >SocialFi</p>
         <div className='
           mt-4 pb-10 grid gap-6 w-full
@@ -28,7 +30,10 @@ export function Actions() {
           }
         </div>
         <p
-          className='font-[19px] font-semibold'
+          className='
+          text-[#343433]
+          text-[19px] font-semibold
+          '
         >DeFi</p>
         <div className='
           mt-4 pb-10 grid gap-6 w-full
