@@ -37,7 +37,6 @@ export function ActionCard({ action } : { action: Action }) {
     <Dialog>
       <DialogTrigger asChild className="cursor-pointer">
         <div className="
-
           mt-[5px]
           mb-[10px]
           md:mb-[40px]
@@ -80,11 +79,13 @@ export function ActionCard({ action } : { action: Action }) {
       <DialogContent
         className='
         border-0
-        w-[380px]
+        w-full
+        h-full sm:h-auto
         md:min-w-[480px]
         lg:min-w-[673px]
         p-0
-        rounded-lg
+        rounded-0 sm:rounded-lg
+        pt-24 sm:pt-0
         '
       >
         <div
@@ -92,6 +93,7 @@ export function ActionCard({ action } : { action: Action }) {
         bg-[#fbfaf9]
         flex justify-center
         rounded-t-lg
+        mx-6 sm:mx-0
         '>
           <Image
             src={`/svg/${action.hero}`}

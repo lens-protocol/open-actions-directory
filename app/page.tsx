@@ -7,8 +7,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="
-      flex-1 flex flex-col items-center pt-14
-      sm:pt-28
+      flex-1 flex flex-col items-center 
     ">
       <div
       className='
@@ -17,6 +16,8 @@ export default function Home() {
       xl:w-[1167px] xl:px-0
       bg-[#FAFAFA] md:bg-[transparent]
       pb-12 md:pb-0
+      pt-14
+      sm:pt-28
       '
       >
         <div
