@@ -4,17 +4,21 @@ import { Button } from '@/components/ui/button'
 
 export function Footer() {
   return (
-    <div className="border-t">
+    <div>
       <div className='
         pt-3
-        md:pt-14 pb-4 px-10
+        pb-6
+        px-6 lg:px-10
         flex justify-center
       '>
         <div
           className='
-          flex py-5
+          py-5
+          flex
           flex items-start
-          w-[1167px]
+          lg:w-[1167px]
+          border-t
+          pt-6 md:pt-24 
           '
         >
           <Image
