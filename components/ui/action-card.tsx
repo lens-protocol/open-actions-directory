@@ -76,7 +76,7 @@ export function ActionCard({ action } : { action: Action }) {
       <DialogContent
         className='
         border-0
-        w-[360px]
+        w-[380px]
         md:min-w-[480px]
         lg:min-w-[673px]
         p-0
@@ -85,6 +85,7 @@ export function ActionCard({ action } : { action: Action }) {
       >
         <div
         className='
+        bg-[#fbfaf9]
         flex justify-center
         '>
           <Image
