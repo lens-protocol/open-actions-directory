@@ -80,8 +80,7 @@ export function ActionCard({ action } : { action: Action }) {
         md:min-w-[480px]
         lg:min-w-[673px]
         p-0
-        rounded
-        sm:rounded
+        rounded-lg
         '
       >
         <div
