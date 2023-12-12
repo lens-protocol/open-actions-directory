@@ -37,17 +37,21 @@ export function ActionCard({ action } : { action: Action }) {
     <Dialog>
       <DialogTrigger asChild className="cursor-pointer">
         <div className="
-          w-full mx-[5px] mb-[40px]
+
+          mt-[5px]
+          mb-[10px]
+          md:mb-[40px]
+          w-full
           transition
-                    ">
+          ">
           <Card className="
-            border-0
             bg-[#fbfaf9] rounded-[8px] flex
             justify-center content-start
             h-[192px]
             hover:bg-[#f1eeee]
             [&>*:nth-child(1)]:hover:scale-110
             overflow-hidden	transition
+            border md:border-0 border-[#EEEDED]
           ">
           <Image
             src={`/svg/${action.hero}`}
