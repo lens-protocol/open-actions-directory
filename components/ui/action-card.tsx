@@ -87,6 +87,7 @@ export function ActionCard({ action } : { action: Action }) {
         className='
         bg-[#fbfaf9]
         flex justify-center
+        rounded-t-lg
         '>
           <Image
             src={`/svg/${action.hero}`}
