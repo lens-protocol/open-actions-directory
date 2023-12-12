@@ -7,7 +7,9 @@ export function Actions() {
 
   return (
     <div
-      className='px-5 xl:px-0'
+      className='
+      mt-6 md:mt-0
+      px-5 xl:px-0'
     >
       <div className='
       mt-6

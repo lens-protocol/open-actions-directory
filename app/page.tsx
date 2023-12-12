@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="
-      flex-1 flex flex-col items-center pt-10
+      flex-1 flex flex-col items-center pt-14
       sm:pt-28
     ">
       <div
@@ -15,6 +15,8 @@ export default function Home() {
       flex px-8 w-full
       flex-col md:flex-row
       xl:w-[1167px] xl:px-0
+      bg-[#FAFAFA] md:bg-[transparent]
+      pb-12 md:pb-0
       '
       >
         <div
@@ -25,6 +27,8 @@ export default function Home() {
         >
           <div className='
             flex items-center
+            justify-center
+            sm:justify-start
           '>
             <Image
               src="/svg/logo.svg"
@@ -36,20 +40,50 @@ export default function Home() {
             <div className='ml-4 w-[1px] h-[14px] bg-[#E6E6E6]' />
             <p className='ml-3 text-[#848483] font-light font-[15px]'>Open Actions</p>
           </div>
+          <div
+            className='
+            block
+            md:hidden
+            flex justify-center items-center'
+          >
+            <Image 
+              src="/svg/hero.svg"
+              width={500}
+              height={390}
+              alt="Hero"
+              className='
+              ml-[-35px] mt-8
+              '
+            />
+          </div>
           <h1
             className='
             text-[#343433] tracking-[-0.020em]
-            text-[32px] leading-[36px] pr-5
-            font-bold mt-12 
+            text-[44px] leading-[50px] pr-5
+            font-bold mt-0
             lg:pr-0
-            lg:text-[48px] lg:mt-7 lg:leading-[52.8px]
+            lg:mt-7 lg:text-[48px] lg:leading-[52.8px]
             '
           >
             Discover and build creative Smart Posts.
           </h1>
           <p
+             className='
+             block md:hidden
+             pr-16 text-[17px]
+             text-[#858585] mt-5
+             ont-[400]
+             '
+          >
+          With Open Actions, developers can 
+            build Smart Posts. Interactions with 
+            any external smart contract in a 
+            Lens publication.
+          </p>
+          <p
             className='
-            pr-10 md:pr-20
+            hidden md:block
+            pr-20
             text-[#858585] mt-5
             tracking-[-0.025em] font-[400]
             '
@@ -105,7 +139,9 @@ export default function Home() {
           </div>
         </div>
         <div
-          className='flex justify-center items-center'
+          className='
+          hidden md:block
+          flex justify-center items-center'
         >
           <Image 
             src="/svg/hero.svg"

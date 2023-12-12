@@ -6,7 +6,8 @@ export function Footer() {
   return (
     <div className="border-t">
       <div className='
-        py-4 px-10
+        pt-3
+        md:pt-14 pb-4 px-10
         flex justify-center
       '>
         <div

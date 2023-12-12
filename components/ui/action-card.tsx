@@ -103,13 +103,17 @@ export function ActionCard({ action } : { action: Action }) {
             <p
               className='font-semibold text-[19px]'
             >{action.name}</p>
-            <Image
-              src="/svg/idea-badge.svg"
-              width={40}
-              height={20}
-              alt='Idea'
-              className='ml-2'
-            />
+            {
+              action.type === 'idea' && (
+                <Image
+                  src="/svg/idea-badge.svg"
+                  width={40}
+                  height={20}
+                  alt='Idea'
+                  className='ml-2'
+                />
+              )
+            }
           </div>
           <p
             className='text-[#848281] text-md mt-1 font-light'
