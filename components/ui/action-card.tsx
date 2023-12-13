@@ -76,9 +76,7 @@ export function ActionCard({ action } : { action: Action }) {
         className='
         border-0
         w-full
-        min-h-screen
-        h-full
-        md:min-h-0
+        h-screen
         md:h-[591px]
         md:min-w-[480px]
         lg:min-w-[673px]
