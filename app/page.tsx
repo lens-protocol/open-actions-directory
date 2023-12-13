@@ -39,7 +39,8 @@ export default function Home() {
             />
             <p className='ml-2 font-medium text-[#343433]'>Lens</p>
             <div className='ml-4 w-[1px] h-[14px] bg-[#E6E6E6]' />
-            <p className='ml-3 text-[#848483] font-light font-[15px]'>Open Actions</p>
+            <p className='
+            ml-3 text-[#848483] font-[400] font-[15px]'>Open Actions</p>
           </div>
           <div
             className='
