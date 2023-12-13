@@ -53,8 +53,6 @@ export default function Home() {
               width={5000}
               height={3900}
               alt="Lens Smart Posts"
-              placeholder="blur"
-              blurDataURL={`/svg/hero.svg`}
               className='
               ml-[-35px] mt-8
               '
