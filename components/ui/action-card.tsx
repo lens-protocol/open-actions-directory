@@ -131,7 +131,8 @@ export function ActionCard({ action } : { action: Action }) {
             {action.tag}
           </p>
           <p
-            className='mt-4 text-[#848281] font-light'
+            className='
+            mt-4 text-[#848281] font-[400]'
           >
             {action['long-description']}
           </p>
