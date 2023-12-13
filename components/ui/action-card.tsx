@@ -57,7 +57,7 @@ export function ActionCard({ action } : { action: Action }) {
             height={4040}
             alt={action.name}
             className='
-            transition shadow-[0px_0px_25px_rgba(228,222,215,0.5)]
+            transition
             '
           />
           </Card>
@@ -103,7 +103,6 @@ export function ActionCard({ action } : { action: Action }) {
             height={500}
             alt={action.name}
             className='
-            shadow-[0px_0px_25px_rgba(228,222,215,0.5)]
             '
           />
         </div>
