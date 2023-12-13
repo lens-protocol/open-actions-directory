@@ -18,7 +18,7 @@ export function Footer() {
           flex items-start
           lg:w-[1167px]
           border-t
-          pt-6 md:pt-24 
+          pt-6 md:pt-24 border-[#F0F0F0]
           '
         >
           <Image
@@ -35,7 +35,11 @@ export function Footer() {
             text-[#343433]
             font-medium'>Lens Smart Posts</p>
             <p
-              className='mt-1 text-sm text-[#a7a7a7] max-w-[622px] leading-[21px]'
+              className='
+              mt-1 text-sm text-[#a7a7a7]
+              max-w-[622px] leading-[21px]
+              font-[400]
+              '
             >
             These contributions are made by the Lens community. Remember, they&apos;re not verified or audited by the Lens Team, integrate at your own risk. We encourage you to thoroughly research and verify the code before fully engaging with it.
             </p>

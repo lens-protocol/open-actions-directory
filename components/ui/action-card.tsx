@@ -41,7 +41,6 @@ export function ActionCard({ action } : { action: Action }) {
           mb-[10px]
           md:mb-[40px]
           w-full
-          transition
           ">
           <Card className="
             bg-[#fbfaf9] rounded-[8px] flex
@@ -49,7 +48,7 @@ export function ActionCard({ action } : { action: Action }) {
             h-[192px]
             hover:bg-[#f1eeee]
             [&>*:nth-child(1)]:hover:scale-110
-            overflow-hidden	transition
+            overflow-hidden
             border md:border-0 border-[#EEEDED]
           ">
           <Image
@@ -80,7 +79,8 @@ export function ActionCard({ action } : { action: Action }) {
         className='
         border-0
         w-full
-        h-full sm:h-auto
+        h-full
+        md:h-[591px]
         md:min-w-[480px]
         lg:min-w-[673px]
         p-0
@@ -143,7 +143,9 @@ export function ActionCard({ action } : { action: Action }) {
               flex items-center
               '
             >
-              <p>View Docs</p>
+              <p
+                className='text-base'
+              >View Docs</p>
               <Image
                 src={'/svg/arrow-white.svg'}
                 alt="Arrow"
@@ -165,7 +167,9 @@ export function ActionCard({ action } : { action: Action }) {
                 hover:bg-[#D9D9D9]
               '
             >
-              <p>Submit Post</p>
+              <p
+               className='text-base'
+              >Submit Post</p>
               <Image
                 src={'/svg/arrow.svg'}
                 alt="Arrow"

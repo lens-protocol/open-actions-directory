@@ -73,7 +73,7 @@ export default function Home() {
              block md:hidden
              pr-16 text-[17px]
              text-[#858585] mt-5
-             ont-[400]
+             font-[400]
              '
           >
           With Open Actions, developers can 
@@ -84,9 +84,9 @@ export default function Home() {
           <p
             className='
             hidden md:block
-            pr-20
+            pr-10
             text-[#858585] mt-5
-            tracking-[-0.025em] font-[400]
+            font-[400]
             '
           >
             With Open Actions, developers can build Smart Posts. Interactions with any external smart contract in a Lens publication. Dive into Lens posts and unleash the full power of Web3 for innovative content creation.
@@ -103,7 +103,9 @@ export default function Home() {
               flex items-center
               '
             >
-               <p>View Docs</p>
+               <p
+                 className='text-base'
+               >View Docs</p>
                <Image
                 src={'/svg/arrow-white.svg'}
                 alt="Arrow"
@@ -127,7 +129,7 @@ export default function Home() {
               '
             >
               <p
-                className='text-[#343433]'
+                className='text-[#343433] text-base'
               >Submit Post</p>
               <Image
                 src={'/svg/arrow.svg'}
