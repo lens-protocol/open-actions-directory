@@ -20,9 +20,9 @@ type Action = {
   link?: string
   builder?: string
   bounty?: string
-  builder_profile?: string,
-  width?: number,
-  hero: string,
+  builder_profile?: string
+  width?: number
+  hero: string
   tag: string
 }
 
@@ -138,7 +138,7 @@ export function ActionCard({ action } : { action: Action }) {
           </p>
           <div className='mt-10 flex'>
             {
-              action.type === 'idea' && (
+              !action.link && (
                 <Link
                   href="https://docs.lens.xyz/docs/creating-a-publication-action"
                   target="_blank"
@@ -164,7 +164,7 @@ export function ActionCard({ action } : { action: Action }) {
               )
             }
             {
-              action.type === 'action' && (
+              action.link && (
                 <Link
                   href={action.link}
                   target="_blank"
