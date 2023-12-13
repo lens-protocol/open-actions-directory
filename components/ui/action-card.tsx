@@ -25,6 +25,7 @@ type Action = {
   height: number
   builder_profile?: string
   width: number
+  videoLink?: string
 }
 
 export function ActionCard({ action } : { action: Action }) {
@@ -105,23 +106,52 @@ export function ActionCard({ action } : { action: Action }) {
           flex flex-col
           pt-6 pb-8 px-8 pt-2 bg-white rounded-b-lg'
         >
-          <div>
-           <p
-            className='
-            font-semibold text-[19px] inline mr-2
-            '
-          >{action.name}</p>
-          {
-            action.type === 'idea' && (
-              <Image
-                src="/svg/idea-badge.svg"
-                width={40}
-                height={20}
-                alt='Idea'
-                className='mt-[-2px] inline-block'
-              />
-            )
-          }
+          <div className='flex'>
+            <div className='flex flex-1 '>
+              <p
+                className='
+                font-semibold text-[19px] inline mr-2
+                '
+              >{action.name}</p>
+              {
+                action.type === 'idea' && (
+                  <Image
+                    src="/svg/idea-badge.svg"
+                    width={40}
+                    height={20}
+                    alt='Idea'
+                    className='mt-[-2px] inline-block'
+                  />
+                )
+              }
+            </div>
+            {
+              action.videoLink && (
+                <Link
+                  href={action.videoLink}
+                  rel="no-opener noreferrer"
+                  target='_blank'
+                  className='hidden md:block'
+                >
+                  <div className='
+                  h-[20px]
+                  bg-[#FBFAF9] rounded px-[6px] py-0
+                  flex items-center'>
+                    <Image
+                      src={"/svg/video.svg"}
+                      width={13.55}
+                      height={8.34}
+                      alt="Video Link"
+                    />
+                    <p
+                      className='
+                      leading-3
+                      ml-1 font-[500] text-[12px] text-[#848281]'
+                    >Video</p>
+                  </div>
+                </Link>
+              )
+            }
           </div>
           <p
             className='
@@ -129,7 +159,34 @@ export function ActionCard({ action } : { action: Action }) {
           >
             {action.tag}
           </p>
-          <p
+          {
+            action.videoLink && (
+              <Link
+                href={action.videoLink}
+                rel="no-opener noreferrer"
+                target='_blank'
+                className='md:hidden'
+              >
+                <div className='
+                h-[20px] flex max-w-fit items-center
+                bg-[#FBFAF9] rounded px-[6px] py-0 mt-3
+                '>
+                  <Image
+                    src={"/svg/video.svg"}
+                    width={13.55}
+                    height={8.34}
+                    alt="Video Link"
+                  />
+                  <p
+                    className='
+                    leading-3
+                    ml-1 font-[500] text-[12px] text-[#848281]'
+                  >Video</p>
+                </div>
+              </Link>
+            )
+          }
+        <p
             className='
             mt-4 text-[#848281] font-[400]'
           >

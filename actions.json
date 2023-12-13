@@ -21,6 +21,7 @@
     "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
     "tag": "SocialFi",
     "hero": "tipping.png",
+    "videoLink": "https://tape.xyz/watch/0x01cddb-0x0e",
     "width": 200,
     "height": 567
   },
@@ -31,6 +32,7 @@
     "long-description": "Envision a nuanced approach to content monetization. 'Pay To Read Rest' merges user curiosity with creator reward, offering premium content access upon a token-gated payment, effectively balancing reader interest and creator compensation.",
     "tag": "SocialFi",
     "hero": "pay-to-read.png",
+    "videoLink": "https://tape.xyz/watch/0x01cddb-0x0c",
     "width": 276,
     "height": 194
   },
@@ -41,6 +43,7 @@
     "long-description": " 'Rent a Post' offers a new dimension in digital advertising. It allows creators to monetize their social presence by renting post space for ads, providing a unique opportunity for targeted audience engagement and innovative revenue generation.",
     "tag": "SocialFi",
     "hero": "rent-a-post.png",
+    "videoLink": "https://tape.xyz/watch/0x01cddb-0x0d",
     "width": 276,
     "height": 249
   },
