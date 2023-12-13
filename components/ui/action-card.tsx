@@ -136,7 +136,8 @@ export function ActionCard({ action } : { action: Action }) {
             {action['long-description']}
           </p>
           <div className='
-          mt-10 flex flex-1
+          flex-none md:flex-1
+          mt-10 flex
           items-end
           '>
             {
