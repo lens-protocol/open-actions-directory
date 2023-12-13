@@ -22,8 +22,9 @@ type Action = {
   link?: string
   builder?: string
   bounty?: string
+  height: number
   builder_profile?: string
-  width?: number
+  width: number
 }
 
 export function ActionCard({ action } : { action: Action }) {
@@ -42,19 +43,18 @@ export function ActionCard({ action } : { action: Action }) {
           <Card className="
             bg-[#fbfaf9] rounded-[8px] flex justify-center content-start h-[192px] overflow-hidden border-0
             hover:bg-[#f1eeee]
-            [&>*:nth-child(1)]:hover:scale-110            
+            [&>_img]:hover:scale-110            
           ">
-          <Image
-            src={`/png/${action.hero}`}
-            width={action.width || 264}
-            height={404}
-            alt={action.name}
-            placeholder="blur"
-            blurDataURL={`/svg/${action.hero}`}
-            className='
-            transition
-            '
-          />
+            <Image
+              width={490}
+              height={500}
+              src={`/png/${action.hero}`}
+              alt={action.name}
+              style={{objectFit: "contain"}}
+              className='
+              transition
+              '
+            />
           </Card>
           <div>
             <p
@@ -97,8 +97,7 @@ export function ActionCard({ action } : { action: Action }) {
             width={490}
             height={500}
             alt={action.name}
-            placeholder="blur"
-            blurDataURL={`/svg/${action.hero}`}
+            style={{objectFit: "contain"}}
           />
         </div>
         <div
