@@ -49,7 +49,7 @@ export function ActionCard({ action } : { action: Action }) {
             hover:bg-[#f1eeee]
             [&>*:nth-child(1)]:hover:scale-110
             overflow-hidden
-            border md:border-0 border-[#EEEDED]
+            border-0
           ">
           <Image
             src={`/svg/${action.hero}`}

@@ -104,7 +104,9 @@ export default function Home() {
               '
             >
                <p
-                 className='text-base'
+                 className='
+                 text-base font-[500]
+                 '
                >View Docs</p>
                <Image
                 src={'/svg/arrow-white.svg'}
@@ -129,7 +131,9 @@ export default function Home() {
               '
             >
               <p
-                className='text-[#343433] text-base'
+                className='
+                font-[500]
+                text-[#343433] text-base'
               >Submit Post</p>
               <Image
                 src={'/svg/arrow.svg'}

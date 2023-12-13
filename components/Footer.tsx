@@ -36,7 +36,7 @@ export function Footer() {
             font-medium'>Lens Smart Posts</p>
             <p
               className='
-              mt-1 text-sm text-[#a7a7a7]
+              mt-2 text-sm text-[#a7a7a7]
               max-w-[622px] leading-[21px]
               font-[400]
               '
@@ -49,6 +49,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className='
+                font-[400]
                 hover:text-[#343433]
                 text-sm text-[#a7a7a7] '
               >GitHub</a>
@@ -57,6 +58,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className='
+                font-[400]
                 hover:text-[#343433]
                 ml-5 text-sm text-[#a7a7a7] '
               >Documentation</a>
