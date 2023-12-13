@@ -45,13 +45,12 @@ export function ActionCard({ action } : { action: Action }) {
             [&>*:nth-child(1)]:hover:scale-110            
           ">
           <Image
-            src={`/svg/${action.hero}`}
+            src={`/png/${action.hero}`}
             width={action.width || 264}
             height={404}
             alt={action.name}
             className='
             transition
-            opacity-[.99]
             '
           />
           </Card>
@@ -92,13 +91,10 @@ export function ActionCard({ action } : { action: Action }) {
         mx-6 sm:mx-0
         '>
           <Image
-            src={`/svg/${action.hero}`}
+            src={`/png/${action.hero}`}
             width={490}
             height={500}
             alt={action.name}
-            className='
-            opacity-[.99]
-            '
           />
         </div>
         <div
