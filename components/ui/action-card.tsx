@@ -45,16 +45,16 @@ export function ActionCard({ action } : { action: Action }) {
             hover:bg-[#f1eeee]
             [&>_img]:hover:scale-110            
           ">
-            <Image
-              width={490}
-              height={500}
-              src={`/png/${action.hero}`}
-              alt={action.name}
-              style={{objectFit: "contain"}}
-              className='
-              transition
-              '
-            />
+          <Image
+            width={490}
+            height={500}
+            src={`/png/${action.hero}`}
+            alt={action.name}
+            style={{objectFit: "contain"}}
+            className='
+            transition
+            '
+          />
           </Card>
           <div>
             <p
@@ -76,7 +76,9 @@ export function ActionCard({ action } : { action: Action }) {
         className='
         border-0
         w-full
+        min-h-[896px]
         h-full
+        md:min-h-auto
         md:h-[591px]
         md:min-w-[480px]
         lg:min-w-[673px]
