@@ -4,7 +4,7 @@
     "name": "Hello World",
     "description": "Kickstart your smart post creation with 'Hello World CLI', an ideal toolset for devs.",
     "long-description": "The 'Hello World CLI Kit' simplifies the journey into digital content creation, especially for newcomers to smart posts. It offers the tools and guidance, making the process more approachable and less intimidating for those new to Open Actions.",
-    "link": "https://docs.lens.xyz/docs/open-action-end-to-end-guide",
+    "link": "https://github.com/lens-protocol/create-smart-post",
     "builder": "DefiSpartan",
     "builder_profile": "https://github.com/defispartan",
     "block_explorer_link": "",
