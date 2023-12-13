@@ -63,6 +63,15 @@ export function Footer() {
                 hover:text-[#343433]
                 ml-5 text-sm text-[#a7a7a7] '
               >Documentation</a>
+              <a
+                href="https://t.me/+2j1jirznPt0zMmFh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='
+                font-[400]
+                hover:text-[#343433]
+                ml-5 text-sm text-[#a7a7a7] '
+              >Dev Garden</a>
             </div>
           </div>
         </div>
