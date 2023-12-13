@@ -190,7 +190,7 @@ export function ActionCard({ action } : { action: Action }) {
               )
             }
             <Link
-              href="https://docs.lens.xyz/docs/creating-a-publication-action"
+              href="https://github.com/lens-protocol/verified-modules"
               target="_blank"
               rel="noopener noreferrer"
               className='
