@@ -53,10 +53,12 @@ export function ActionCard({ action } : { action: Action }) {
           ">
           <Image
             src={`/svg/${action.hero}`}
-            width={action.width || 264}
-            height={404}
+            width={action.width || 2640}
+            height={4040}
             alt={action.name}
-            className='transition'
+            className='
+            transition
+            '
           />
           </Card>
           <div>

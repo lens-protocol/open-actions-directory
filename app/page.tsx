@@ -49,8 +49,8 @@ export default function Home() {
           >
             <Image 
               src="/svg/hero.svg"
-              width={500}
-              height={390}
+              width={5000}
+              height={3900}
               alt="Hero"
               className='
               ml-[-35px] mt-8
