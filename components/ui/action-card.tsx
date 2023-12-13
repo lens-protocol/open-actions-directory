@@ -102,25 +102,27 @@ export function ActionCard({ action } : { action: Action }) {
           />
         </div>
         <div
-          className='pt-6  pb-8 px-8 pt-2 bg-white rounded-b-lg'
+          className='
+          flex flex-col
+          pt-6 pb-8 px-8 pt-2 bg-white rounded-b-lg'
         >
           <div>
-            <p
-              className='
-              font-semibold text-[19px] inline mr-2
-              '
-            >{action.name}</p>
-            {
-              action.type === 'idea' && (
-                <Image
-                  src="/svg/idea-badge.svg"
-                  width={40}
-                  height={20}
-                  alt='Idea'
-                  className='mt-[-2px] inline-block'
-                />
-              )
-            }
+           <p
+            className='
+            font-semibold text-[19px] inline mr-2
+            '
+          >{action.name}</p>
+          {
+            action.type === 'idea' && (
+              <Image
+                src="/svg/idea-badge.svg"
+                width={40}
+                height={20}
+                alt='Idea'
+                className='mt-[-2px] inline-block'
+              />
+            )
+          }
           </div>
           <p
             className='
@@ -133,7 +135,10 @@ export function ActionCard({ action } : { action: Action }) {
           >
             {action['long-description']}
           </p>
-          <div className='mt-10 flex'>
+          <div className='
+          mt-10 flex flex-1
+          items-end
+          '>
             {
               !action.link && (
                 <Link
