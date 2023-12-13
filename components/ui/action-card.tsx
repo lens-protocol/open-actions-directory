@@ -17,13 +17,13 @@ type Action = {
   name: string
   description: string
   type: string
+  hero: string
+  tag: string
   link?: string
   builder?: string
   bounty?: string
   builder_profile?: string
   width?: number
-  hero: string
-  tag: string
 }
 
 export function ActionCard({ action } : { action: Action }) {
@@ -36,19 +36,13 @@ export function ActionCard({ action } : { action: Action }) {
     <Dialog>
       <DialogTrigger asChild className="cursor-pointer">
         <div className="
-          mt-[5px]
-          mb-[10px]
+          mt-[5px] mb-[10px] w-full
           md:mb-[40px]
-          w-full
           ">
           <Card className="
-            bg-[#fbfaf9] rounded-[8px] flex
-            justify-center content-start
-            h-[192px]
+            bg-[#fbfaf9] rounded-[8px] flex justify-center content-start h-[192px] overflow-hidden border-0
             hover:bg-[#f1eeee]
-            [&>*:nth-child(1)]:hover:scale-110
-            overflow-hidden
-            border-0
+            [&>*:nth-child(1)]:hover:scale-110            
           ">
           <Image
             src={`/svg/${action.hero}`}

@@ -2,8 +2,8 @@
   {
     "type": "action",
     "name": "Hello World",
-    "description": "Scaffolding for a Lens Open Action implementing a Smart Post",
-    "long-description": "The 'Hello World CLI' simplifies the journey into digital content creation, especially for newcomers to smart posts. It offers the tools and guidance, making the process more approachable and less intimidating for those new to Open Actions.",
+    "description": "Kickstart your smart post creation with 'Hello World CLI Kit', an ideal toolset for devs.",
+    "long-description": "The 'Hello World CLI Kit' simplifies the journey into digital content creation, especially for newcomers to smart posts. It offers the tools and guidance, making the process more approachable and less intimidating for those new to Open Actions.",
     "link": "https://github.com/defispartan/lens-hello-world-open-action",
     "builder": "DefiSpartan",
     "builder_profile": "https://github.com/defispartan",
@@ -17,7 +17,7 @@
     "type": "idea",
     "name": "Tipping",
     "description": "Instantly tip creators to show appreciation and support, fostering a vibrant creator economy.",
-    "long-description": "Instantly tip creators to show appreciation and support, fostering a vibrant creator economy.",
+    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
     "tag": "SocialFi",
     "hero": "tipping.svg",
     "width": 264
@@ -26,7 +26,7 @@
     "type": "idea",
     "name": "Pay to Read",
     "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
-    "long-description": "Turn your digital space into a revenue source by renting out post space for ads.",
+    "long-description": "Envision a nuanced approach to content monetization. 'Pay To Read Rest' merges user curiosity with creator reward, offering premium content access upon a token-gated payment, effectively balancing reader interest and creator compensation.",
     "tag": "SocialFi",
     "hero": "pay-to-read.svg",
     "width": 306
@@ -35,7 +35,7 @@
     "type": "idea",
     "name": "Rent a Post",
     "description": "Turn your digital space into a revenue source by renting out post space for ads.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "long-description": " 'Rent a Post' offers a new dimension in digital advertising. It allows creators to monetize their social presence by renting post space for ads, providing a unique opportunity for targeted audience engagement and innovative revenue generation.",
     "tag": "SocialFi",
     "hero": "rent-a-post.svg",
     "width": 306
@@ -44,7 +44,7 @@
     "type": "idea",
     "name": "Buy and Sell Lens Handles",
     "description": "Engage in a vibrant market to buy and sell unique digital handles.",
-    "long-description": "Engage in a vibrant market to buy and sell unique digital handles.",
+    "long-description": "The handle trading marketplace reflects the evolving significance of digital identity. This offers a unique way for users to buy and sell digital personas across Lens apps, merging aspects of personal branding with the web3 social commerce landscape.",
     "tag": "SocialFi",
     "hero": "lenshandles.svg",
     "width": 302
@@ -53,7 +53,7 @@
     "type": "idea",
     "name": "Promote Communities with MadFi",
     "description": "Discover and engage with diverse communities through the innovative MadFi platform.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "long-description": "MadFi enriches digital communities by enabling creators to promote social clubs, incentivize engagement, and compensate for community-created content. It fosters active participation and enhances the value of community interactions.",
     "tag": "SocialFi",
     "hero": "promote-communities.svg",
     "width": 306
@@ -62,7 +62,7 @@
     "type": "idea",
     "name": "friend.tech",
     "description": "Trade friend.tech shares in a user-friendly, secure decentralized environment..",
-    "long-description": "Trade friend.tech shares in a user-friendly, secure decentralized environment.",
+    "long-description": "The idea for trading friend.tech shares brings a user-friendly and secure approach to decentralized share trading. It makes share trading more accessible, aligning with the vision of decentralized social and broadening its appeal.",
     "tag": "SocialFi",
     "hero": "ft.svg",
     "width": 306
@@ -71,7 +71,7 @@
     "type": "idea",
     "name": "Collect on Zora",
     "description": "Seamlessly collect and trade digital assets with Zora integration, enriching your feed.",
-    "long-description": "Seamlessly collect and trade digital assets with Zora integration, enriching your feed.",
+    "long-description": "Integrating Zora transforms social feeds into interactive digital asset platforms. It facilitates the collection, showcasing, and trading of digital assets, enhancing social interaction and placing a premium on digital creativity and curation.",
     "tag": "SocialFi",
     "hero": "zora.svg",
     "width": 302
@@ -80,7 +80,7 @@
     "type": "idea",
     "name": "Event Discounts with Chainlink",
     "description": "Easily generate unique Eventbrite discounts for Lens users with Chainlink Functions.",
-    "long-description": "Easily generate unique Eventbrite discounts for Lens users with Chainlink Functions.",
+    "long-description": "Integrating Chainlink Functions for Eventbrite discount creation enhances the user experience. This feature offers a practical way to generate and distribute unique discount codes, streamlining engagement for various events and gatherings.",
     "tag": "SocialFi",
     "hero": "chainlink.svg",
     "width": 306
@@ -89,7 +89,7 @@
     "type": "idea",
     "name": "Deposit into an Aave Liquidity Pool",
     "description": "Efficiently manage and grow your collect revenue by depositing into Aave pools.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "long-description": "Seamlessly deposit your collect revenue into Aave liquidity pools, combining the simplicity of collects with DeFi's battle-tested utility. This concept can transform creator monetization, transcending the boundaries of traditional social media.",
     "tag": "DeFi",
     "hero": "aave.svg",
     "width": 306
@@ -98,7 +98,7 @@
     "type": "idea",
     "name": "Use Uniswap to Buy Crypto",
     "description": "Effortlessly buy crypto and swap tokens within your feed utilizing native Uniswap functionality.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "long-description": "Integrating Uniswap functionality directly into the social feed simplifies the crypto experience. This feature makes buying and swapping tokens a seamless part of the social media experience, enhancing user convenience and accessibility.",
     "tag": "DeFi",
     "hero": "uniswap.svg",
     "width": 306
@@ -108,7 +108,7 @@
     "type": "idea",
     "name": "Cross-Chain Minting with Decent",
     "description": "Experience limitless creativity by minting assets cross-chain with Decent.xyz.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "long-description": "Decent simplifies cross-chain creativity with 1-click transactions using any token or fiat. Its template allows actions to be embeddable in various platforms, ensuring compatibility across different blockchain networks for seamless user experiences.",
     "tag": "DeFi",
     "hero": "decent.svg",
     "width": 306
