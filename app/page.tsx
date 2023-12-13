@@ -48,10 +48,12 @@ export default function Home() {
             flex justify-center items-center'
           >
             <Image 
-              src="/svg/hero.svg"
+              src="/png/hero.png"
               width={5000}
               height={3900}
-              alt="Hero"
+              alt="Lens Smart Posts"
+              placeholder="blur"
+              blurDataURL={`/svg/hero.svg`}
               className='
               ml-[-35px] mt-8
               '
@@ -150,10 +152,12 @@ export default function Home() {
           flex justify-center items-center'
         >
           <Image 
-            src="/svg/hero.svg"
+            src="/png/hero.png"
             width={500}
             height={390}
-            alt="Hero"
+            alt="Lens Smart Posts"
+            placeholder="blur"
+            blurDataURL={`/svg/hero.svg`}
             className='
             ml-[-40px] mt-8
             lg:ml-0 lg:mt-0
