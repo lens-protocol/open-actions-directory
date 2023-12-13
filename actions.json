@@ -3,7 +3,7 @@
     "type": "action",
     "name": "Hello World",
     "description": "Scaffolding for a Lens Open Action implementing a Smart Post",
-    "long-description": "The 'Hello World CLI Kit' simplifies the journey into digital content creation, especially for newcomers to smart posts. It offers the tools and guidance, making the process more approachable and less intimidating for those new to Open Actions.",
+    "long-description": "The 'Hello World CLI' simplifies the journey into digital content creation, especially for newcomers to smart posts. It offers the tools and guidance, making the process more approachable and less intimidating for those new to Open Actions.",
     "link": "https://github.com/defispartan/lens-hello-world-open-action",
     "builder": "DefiSpartan",
     "builder_profile": "https://github.com/defispartan",
@@ -16,8 +16,8 @@
   {
     "type": "idea",
     "name": "Tipping",
-    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "description": "Instantly tip creators to show appreciation and support, fostering a vibrant creator economy.",
+    "long-description": "Instantly tip creators to show appreciation and support, fostering a vibrant creator economy.",
     "tag": "SocialFi",
     "hero": "tipping.svg",
     "width": 264
@@ -26,7 +26,7 @@
     "type": "idea",
     "name": "Pay to Read",
     "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "long-description": "Turn your digital space into a revenue source by renting out post space for ads.",
     "tag": "SocialFi",
     "hero": "pay-to-read.svg",
     "width": 306
@@ -43,8 +43,8 @@
   {
     "type": "idea",
     "name": "Buy and Sell Lens Handles",
-    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "description": "Engage in a vibrant market to buy and sell unique digital handles.",
+    "long-description": "Engage in a vibrant market to buy and sell unique digital handles.",
     "tag": "SocialFi",
     "hero": "lenshandles.svg",
     "width": 302
@@ -61,8 +61,8 @@
   {
     "type": "idea",
     "name": "friend.tech",
-    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.p.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "description": "Trade friend.tech shares in a user-friendly, secure decentralized environment..",
+    "long-description": "Trade friend.tech shares in a user-friendly, secure decentralized environment.",
     "tag": "SocialFi",
     "hero": "ft.svg",
     "width": 306
@@ -70,8 +70,8 @@
   {
     "type": "idea",
     "name": "Collect on Zora",
-    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "description": "Seamlessly collect and trade digital assets with Zora integration, enriching your feed.",
+    "long-description": "Seamlessly collect and trade digital assets with Zora integration, enriching your feed.",
     "tag": "SocialFi",
     "hero": "zora.svg",
     "width": 302
@@ -79,8 +79,8 @@
   {
     "type": "idea",
     "name": "Event Discounts with Chainlink",
-    "description": "Sit aenean convallis amet volutpat id feugiat pellentesque neque maecenas. Porta vitae ornare.",
-    "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
+    "description": "Easily generate unique Eventbrite discounts for Lens users with Chainlink Functions.",
+    "long-description": "Easily generate unique Eventbrite discounts for Lens users with Chainlink Functions.",
     "tag": "SocialFi",
     "hero": "chainlink.svg",
     "width": 306
