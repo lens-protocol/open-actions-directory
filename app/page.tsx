@@ -74,6 +74,7 @@ export default function Home() {
              pr-16 text-[17px]
              text-[#858585] mt-5
              font-[400]
+             tracking-[-0.22px]
              '
           >
           Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
@@ -84,6 +85,7 @@ export default function Home() {
             pr-10
             text-[#858585] mt-5
             font-[400]
+            tracking-[-0.22px]
             '
           >
             Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
