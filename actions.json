@@ -82,6 +82,7 @@
     "description": "Easily generate unique Eventbrite discounts for Lens users with Chainlink Functions.",
     "long-description": "Integrating Chainlink Functions for Eventbrite discount creation enhances the user experience. This feature offers a practical way to generate and distribute unique discount codes, streamlining engagement for various events and gatherings.",
     "tag": "SocialFi",
+    "link": "https://github.com/smartcontractkit/functions-lens-eventbrite",
     "hero": "chainlink.svg",
     "width": 306
   },
