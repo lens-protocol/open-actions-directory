@@ -33,6 +33,7 @@ export function Footer() {
           md:ml-20'>
             <p className='
             text-[#343433]
+            text-sm
             font-medium'>Lens Smart Posts</p>
             <p
               className='

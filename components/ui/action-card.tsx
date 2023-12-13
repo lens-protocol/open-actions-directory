@@ -123,7 +123,8 @@ export function ActionCard({ action } : { action: Action }) {
             }
           </div>
           <p
-            className='text-[#848281] text-md mt-1 font-light'
+            className='
+            text-[#848281] text-md mt-1'
           >
             {action.tag}
           </p>
