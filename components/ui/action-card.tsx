@@ -13,7 +13,6 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 
-
 type Action = {
   name: string
   description: string
@@ -53,11 +52,12 @@ export function ActionCard({ action } : { action: Action }) {
           ">
           <Image
             src={`/svg/${action.hero}`}
-            width={action.width || 2640}
-            height={4040}
+            width={action.width || 264}
+            height={404}
             alt={action.name}
             className='
             transition
+            opacity-[.99]
             '
           />
           </Card>
@@ -103,6 +103,7 @@ export function ActionCard({ action } : { action: Action }) {
             height={500}
             alt={action.name}
             className='
+            opacity-[.99]
             '
           />
         </div>
