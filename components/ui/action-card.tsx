@@ -57,7 +57,7 @@ export function ActionCard({ action } : { action: Action }) {
             height={4040}
             alt={action.name}
             className='
-            transition
+            transition shadow-[0px_0px_25px_rgba(228,222,215,0.5)]
             '
           />
           </Card>
@@ -102,6 +102,9 @@ export function ActionCard({ action } : { action: Action }) {
             width={490}
             height={500}
             alt={action.name}
+            className='
+            shadow-[0px_0px_25px_rgba(228,222,215,0.5)]
+            '
           />
         </div>
         <div
@@ -139,14 +142,14 @@ export function ActionCard({ action } : { action: Action }) {
               target="_blank"
               rel="noopener noreferrer"
               className='
-              bg-[#343433]
+              bg-[#343433] hover:bg-black
               rounded-full text-white px-[16px] py-[11px]
               text-sm
               flex items-center
               '
             >
               <p
-                className='text-base'
+                className='text-base font-[500]'
               >View Docs</p>
               <Image
                 src={'/svg/arrow-white.svg'}
@@ -170,7 +173,7 @@ export function ActionCard({ action } : { action: Action }) {
               '
             >
               <p
-               className='text-base'
+               className='text-base font-[500]'
               >Submit Post</p>
               <Image
                 src={'/svg/arrow.svg'}

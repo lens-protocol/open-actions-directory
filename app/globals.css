@@ -36,6 +36,8 @@ a {
 
 *:focus {
   outline: none !important;
+  -font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* 

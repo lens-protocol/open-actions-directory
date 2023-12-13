@@ -97,7 +97,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className='
-              bg-[#343433]
+              bg-[#343433] hover:bg-black
               rounded-full text-white px-[16px] py-[11px]
               text-sm
               flex items-center

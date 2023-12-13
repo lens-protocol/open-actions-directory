@@ -18,7 +18,7 @@ export function Footer() {
           flex items-start
           lg:w-[1167px]
           border-t
-          pt-6 md:pt-24 border-[#F0F0F0]
+          pt-6 md:pt-20 border-[#F0F0F0]
           '
         >
           <Image
