@@ -137,28 +137,58 @@ export function ActionCard({ action } : { action: Action }) {
             {action['long-description']}
           </p>
           <div className='mt-10 flex'>
-            <Link
-              href="https://docs.lens.xyz/docs/creating-a-publication-action"
-              target="_blank"
-              rel="noopener noreferrer"
-              className='
-              bg-[#343433] hover:bg-black
-              rounded-full text-white px-[16px] py-[11px]
-              text-sm
-              flex items-center
-              '
-            >
-              <p
-                className='text-base font-[500]'
-              >View Docs</p>
-              <Image
-                src={'/svg/arrow-white.svg'}
-                alt="Arrow"
-                height={13}
-                width={13}
-                className='ml-1'
-              />
-            </Link>
+            {
+              action.type === 'idea' && (
+                <Link
+                  href="https://docs.lens.xyz/docs/creating-a-publication-action"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className='
+                  bg-[#343433] hover:bg-black
+                  rounded-full text-white px-[16px] py-[11px]
+                  text-sm
+                  flex items-center
+                  '
+                >
+                  <p
+                    className='text-base font-[500]'
+                  >View Docs</p>
+                  <Image
+                    src={'/svg/arrow-white.svg'}
+                    alt="Arrow"
+                    height={13}
+                    width={13}
+                    className='ml-1'
+                  />
+                </Link>
+              )
+            }
+            {
+              action.type === 'action' && (
+                <Link
+                  href={action.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className='
+                  bg-[#343433] hover:bg-black
+                  rounded-full text-white px-[16px] py-[11px]
+                  text-sm
+                  flex items-center
+                  '
+                >
+                  <p
+                    className='text-base font-[500]'
+                  >View GitHub</p>
+                  <Image
+                    src={'/svg/arrow-white.svg'}
+                    alt="Arrow"
+                    height={13}
+                    width={13}
+                    className='ml-1'
+                  />
+                </Link>
+              )
+            }
             <Link
               href="https://docs.lens.xyz/docs/creating-a-publication-action"
               target="_blank"
