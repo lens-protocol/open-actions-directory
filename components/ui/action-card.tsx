@@ -49,6 +49,8 @@ export function ActionCard({ action } : { action: Action }) {
             width={action.width || 264}
             height={404}
             alt={action.name}
+            placeholder="blur"
+            blurDataURL={`/svg/${action.hero}`}
             className='
             transition
             '
@@ -95,6 +97,8 @@ export function ActionCard({ action } : { action: Action }) {
             width={490}
             height={500}
             alt={action.name}
+            placeholder="blur"
+            blurDataURL={`/svg/${action.hero}`}
           />
         </div>
         <div
