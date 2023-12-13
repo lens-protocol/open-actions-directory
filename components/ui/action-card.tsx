@@ -104,9 +104,11 @@ export function ActionCard({ action } : { action: Action }) {
         <div
           className='pt-6  pb-8 px-8 pt-2 bg-white rounded-b-lg'
         >
-          <div className='flex items-center'>
+          <div>
             <p
-              className='font-semibold text-[19px]'
+              className='
+              font-semibold text-[19px] inline mr-2
+              '
             >{action.name}</p>
             {
               action.type === 'idea' && (
@@ -115,7 +117,7 @@ export function ActionCard({ action } : { action: Action }) {
                   width={40}
                   height={20}
                   alt='Idea'
-                  className='ml-2'
+                  className='mt-[-2px] inline-block'
                 />
               )
             }
