@@ -36,7 +36,7 @@ export function Footer() {
             font-medium'>Lens Smart Posts</p>
             <p
               className='
-              mt-2 text-sm text-[#a7a7a7]
+              mt-3 text-sm text-[#a7a7a7]
               max-w-[622px] leading-[21px]
               font-[400]
               '
