@@ -135,7 +135,7 @@ export function ActionCard({ action } : { action: Action }) {
                 >
                   <div className='
                   h-[20px]
-                  bg-[#FBFAF9] rounded px-[6px] py-0
+                  bg-[#FBFAF9] rounded px-[7px] py-0
                   flex items-center'>
                     <Image
                       src={"/svg/video.svg"}
@@ -169,7 +169,7 @@ export function ActionCard({ action } : { action: Action }) {
               >
                 <div className='
                 h-[20px] flex max-w-fit items-center
-                bg-[#FBFAF9] rounded px-[6px] py-0 mt-3
+                bg-[#FBFAF9] rounded px-[7px] py-0 mt-3
                 '>
                   <Image
                     src={"/svg/video.svg"}
