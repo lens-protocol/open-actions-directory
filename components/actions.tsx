@@ -20,8 +20,7 @@ export function Actions() {
       '>
         <p
           className='
-          text-[#343433] font-semibold
-          text-[19px]'
+          text-[#343433] text-[19px] font-semibold'
         >SocialFi</p>
         <div className='
           mt-4 pb-10 grid gap-6 w-full
@@ -36,8 +35,7 @@ export function Actions() {
         </div>
         <p
           className='
-          text-[#343433]
-          text-[19px] font-semibold
+          text-[#343433] text-[19px] font-semibold
           '
         >DeFi</p>
         <div className='

@@ -12,8 +12,7 @@ export default function Home() {
       <div
       className='
       flex w-full flex-col 
-      bg-[#FAFAFA]
-      pb-12 pt-14 px-6
+      bg-[#FAFAFA] pb-12 pt-14 px-6
       sm:pt-28
       md:pb-0 md:bg-[transparent] md:flex-row md:px-8 
       xl:w-[1167px] xl:px-0
@@ -26,8 +25,7 @@ export default function Home() {
           '
         >
           <div className='
-            flex items-center
-            justify-center
+            flex items-center justify-center
             sm:justify-start
           '>
             <Image
@@ -39,13 +37,14 @@ export default function Home() {
             <p className='ml-2 font-medium text-[#343433]'>Lens</p>
             <div className='ml-4 w-[1px] h-[14px] bg-[#E6E6E6]' />
             <p className='
-            ml-3 text-[#848483] font-[400] font-[15px]'>Open Actions</p>
+            ml-3 text-[#848483] font-[400] font-[15px]
+            '>Open Actions</p>
           </div>
           <div
             className='
-            block
+            block flex justify-center items-center
             md:hidden
-            flex justify-center items-center'
+            '
           >
             <Image 
               src="/png/hero.png"
@@ -62,30 +61,26 @@ export default function Home() {
             text-[#343433] text-[44px] font-bold
             tracking-[-0.020em] leading-[50px]
             pr-5 mt-0
-            lg:pr-0
-            md:mt-7 lg:text-[48px] lg:leading-[52.8px]
+            md:mt-7
+            lg:text-[48px] lg:leading-[52.8px] lg:pr-0
             '
           >
             Build Smart Posts with Open Actions.
           </h1>
           <p
              className='
-             block md:hidden
-             pr-16 text-[17px]
-             text-[#858585] mt-5
-             font-[400]
-             tracking-[-0.22px]
+             block pr-16 mt-5 
+             text-[17px] text-[#858585] font-[400] tracking-[-0.22px]
+             md:hidden
              '
           >
           Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
           </p>
           <p
             className='
-            hidden md:block
-            pr-10
-            text-[#858585] mt-5
-            font-[400]
-            tracking-[-0.22px]
+            hidden pr-10 mt-5
+            text-[#858585] font-[400] tracking-[-0.22px]
+            md:block
             '
           >
             Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
@@ -96,10 +91,10 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className='
-              bg-[#343433] hover:bg-black
-              rounded-full text-white px-[16px] py-[11px]
-              text-sm
-              flex items-center
+              flex items-center rounded-full
+              bg-[#343433] px-[16px] py-[11px]
+              text-sm text-white
+              hover:bg-black
               '
             >
                <p
@@ -120,19 +115,17 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className='
-              ml-3
-              bg-[#F0F0F0]
-              rounded-full text-black px-[16px] py-[11px]
-              text-sm
               flex items-center
+              ml-3 px-[16px] py-[11px] rounded-full
+              cursor-pointer bg-[#F0F0F0]
+              text-sm text-black
               hover:bg-[#D9D9D9]
-              cursor-pointer
               '
             >
               <p
                 className='
-                font-[500]
-                text-[#343433] text-base'
+                font-[500] text-[#343433] text-base
+                '
               >Submit Post</p>
               <Image
                 src={'/svg/arrow.svg'}
@@ -146,8 +139,7 @@ export default function Home() {
         </div>
         <div
           className='
-          hidden md:block
-          flex justify-center items-center'
+          hidden md:block flex justify-center items-center'
         >
           <Image 
             src="/png/hero.png"
@@ -157,8 +149,7 @@ export default function Home() {
             placeholder="blur"
             blurDataURL={`/svg/hero.svg`}
             className='
-            ml-[-40px] mt-8
-            lg:ml-0 lg:mt-0
+            ml-[-40px] mt-8 lg:ml-0 lg:mt-0
             '
           />
         </div>

@@ -65,8 +65,7 @@ export function ActionCard({ action } : { action: Action }) {
             >{action.name}</p>
             <p
               className='
-              font-[400]
-              text-[#848281] text-sm mt-2
+              font-[400] text-[#848281] text-sm mt-2
               '
             >{action.description}</p>
           </div>
@@ -75,8 +74,7 @@ export function ActionCard({ action } : { action: Action }) {
       {/* Active Dialog */}
       <DialogContent
         className='
-        border-0 p-0 pt-24
-        w-full h-screen rounded-0
+        border-0 p-0 pt-24 w-full h-screen rounded-0
         sm:rounded-lg sm:pt-0
         md:h-[591px] md:min-w-[480px]
         lg:min-w-[673px]
@@ -84,10 +82,9 @@ export function ActionCard({ action } : { action: Action }) {
       >
         <div
         className='
+        mx-6 flex justify-center rounded-t-lg
         bg-[#fbfaf9]
-        flex justify-center
-        rounded-t-lg
-        mx-6 sm:mx-0
+        sm:mx-0
         '>
           <Image
             src={`/png/${action.hero}`}
@@ -99,8 +96,8 @@ export function ActionCard({ action } : { action: Action }) {
         </div>
         <div
           className='
-          flex flex-col
-          pt-6 pb-8 px-8 pt-2 bg-white rounded-b-lg'
+          flex flex-col pt-6 pb-8 px-8 pt-2
+          rounded-b-lg  bg-white'
         >
           <div className='flex'>
             <div className='flex flex-1 '>
@@ -130,9 +127,9 @@ export function ActionCard({ action } : { action: Action }) {
                   className='hidden md:block'
                 >
                   <div className='
-                  h-[20px]
-                  bg-[#FBFAF9] rounded px-[7px] py-0
-                  flex items-center'>
+                  flex py-0 h-[20px] items-center
+                  rounded px-[7px] bg-[#FBFAF9]
+                  '>
                     <Image
                       src={"/svg/video.svg"}
                       width={13.55}
@@ -141,8 +138,7 @@ export function ActionCard({ action } : { action: Action }) {
                     />
                     <p
                       className='
-                      leading-3
-                      ml-1 font-[500] text-[12px] text-[#848281]'
+                      ml-1 leading-3 font-[500] text-[12px] text-[#848281]'
                     >Video</p>
                   </div>
                 </Link>
@@ -165,7 +161,7 @@ export function ActionCard({ action } : { action: Action }) {
               >
                 <div className='
                 h-[20px] flex max-w-fit items-center
-                bg-[#FBFAF9] rounded px-[7px] py-0 mt-3
+                px-[7px] py-0 mt-3 rounded bg-[#FBFAF9]
                 '>
                   <Image
                     src={"/svg/video.svg"}
@@ -175,8 +171,7 @@ export function ActionCard({ action } : { action: Action }) {
                   />
                   <p
                     className='
-                    leading-3
-                    ml-1 font-[500] text-[12px] text-[#848281]'
+                     ml-1 leading-3 font-[500] text-[12px] text-[#848281]'
                   >Video</p>
                 </div>
               </Link>
@@ -189,9 +184,8 @@ export function ActionCard({ action } : { action: Action }) {
             {action['long-description']}
           </p>
           <div className='
-          flex-none md:flex-1
-          mt-10 flex
-          items-end
+          flex flex-none mt-10 items-end
+          md:flex-1
           '>
             {
               !action.link && (
@@ -200,10 +194,10 @@ export function ActionCard({ action } : { action: Action }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className='
-                  bg-[#343433] hover:bg-black
-                  rounded-full text-white px-[16px] py-[11px]
-                  text-sm
-                  flex items-center
+                  flex items-center px-[16px] py-[11px]
+                  rounded-full bg-[#343433] 
+                  text-white text-sm
+                  hover:bg-black
                   '
                 >
                   <p
@@ -226,10 +220,10 @@ export function ActionCard({ action } : { action: Action }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className='
-                  bg-[#343433] hover:bg-black
-                  rounded-full text-white px-[16px] py-[11px]
-                  text-sm
-                  flex items-center
+                  flex items-center px-[16px] py-[11px]
+                  rounded-full bg-[#343433] 
+                  text-white text-sm
+                  hover:bg-black
                   '
                 >
                   <p

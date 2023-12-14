@@ -8,7 +8,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Open Actions Directory',
+  title: 'Smart Posts Directory',
   description: 'Discover and Build Lens Open Actions.'
 }
 
