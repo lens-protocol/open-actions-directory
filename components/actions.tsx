@@ -8,11 +8,14 @@ export function Actions() {
   return (
     <div
       className='
-      mt-6 md:mt-0
-      px-5 xl:px-0'
+      mt-6 px-6
+      md:mt-0
+      xl:px-0
+      '
     >
       <div className='
       mt-6
+      md:mt-12
       lg:mt-20
       '>
         <p

@@ -11,13 +11,12 @@ export default function Home() {
     ">
       <div
       className='
-      flex px-8 w-full
-      flex-col md:flex-row
-      xl:w-[1167px] xl:px-0
-      bg-[#FAFAFA] md:bg-[transparent]
-      pb-12 md:pb-0
-      pt-14
+      flex w-full flex-col 
+      bg-[#FAFAFA]
+      pb-12 pt-14 px-6
       sm:pt-28
+      md:pb-0 md:bg-[transparent] md:flex-row md:px-8 
+      xl:w-[1167px] xl:px-0
       '
       >
         <div
@@ -60,11 +59,11 @@ export default function Home() {
           </div>
           <h1
             className='
-            text-[#343433] tracking-[-0.020em]
-            text-[44px] leading-[50px] pr-5
-            font-bold mt-0
+            text-[#343433] text-[44px] font-bold
+            tracking-[-0.020em] leading-[50px]
+            pr-5 mt-0
             lg:pr-0
-            lg:mt-7 lg:text-[48px] lg:leading-[52.8px]
+            md:mt-7 lg:text-[48px] lg:leading-[52.8px]
             '
           >
             Build Smart Posts with Open Actions.

@@ -75,15 +75,11 @@ export function ActionCard({ action } : { action: Action }) {
       {/* Active Dialog */}
       <DialogContent
         className='
-        border-0
-        w-full
-        h-screen
-        md:h-[591px]
-        md:min-w-[480px]
+        border-0 p-0 pt-24
+        w-full h-screen rounded-0
+        sm:rounded-lg sm:pt-0
+        md:h-[591px] md:min-w-[480px]
         lg:min-w-[673px]
-        p-0
-        rounded-0 sm:rounded-lg
-        pt-24 sm:pt-0
         '
       >
         <div
