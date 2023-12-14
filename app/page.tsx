@@ -74,7 +74,7 @@ export default function Home() {
              md:hidden
              '
           >
-          Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
+            Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
           </p>
           <p
             className='
