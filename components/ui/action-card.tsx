@@ -44,7 +44,7 @@ export function ActionCard({ action } : { action: Action }) {
           <Card className="
             bg-[#fbfaf9] rounded-[8px] flex justify-center content-start h-[192px] overflow-hidden border-0
             hover:bg-[#f1eeee]
-            [&>_img]:hover:scale-110            
+            [&>_img]:hover:scale-110 transition duration-500        
           ">
           <Image
             width={490}
@@ -53,7 +53,7 @@ export function ActionCard({ action } : { action: Action }) {
             alt={action.name}
             style={{objectFit: "contain"}}
             className='
-            transition
+            transition duration-500
             '
           />
           </Card>
