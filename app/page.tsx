@@ -65,7 +65,7 @@ export default function Home() {
             lg:text-[48px] lg:leading-[52.8px] lg:pr-0
             '
           >
-            Build Smart Posts with Open Actions.
+            Smart Posts
           </h1>
           <p
              className='
@@ -74,7 +74,7 @@ export default function Home() {
              md:hidden
              '
           >
-            Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
+            Smart Posts bring the power of smart contracts into the feed. Engage a wider audience with interactive web3 experiences seamlessly integrated across the Lens ecosystem.
           </p>
           <p
             className='
@@ -83,7 +83,7 @@ export default function Home() {
             md:block
             '
           >
-            Craft new social experiences with Smart Posts. Seamlessly integrate any Web3 smart contract into a Lens app, transforming posts into dynamic, value-added experiences. Reimagine tomorrow&apos;s social interactions.
+            Smart Posts bring the power of smart contracts into the feed. Engage a wider audience with interactive web3 experiences seamlessly integrated across the Lens ecosystem.
           </p>
           <div className='mt-7 flex'>
             <Link
