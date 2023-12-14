@@ -187,34 +187,64 @@ export function ActionCard({ action }: { action: Action }) {
           >
             {action.tag}
           </p>
-          {action.videoLink && (
-            <Link
-              href={action.videoLink}
-              rel="noopener noreferrer"
-              target="_blank"
-              className="md:hidden"
-            >
-              <div
-                className="
-                h-[20px] flex max-w-fit items-center
-                px-[7px] py-0 mt-3 rounded bg-[#FBFAF9]
-                "
+          <div className='flex flex-row'>
+            {action.videoLink && (
+              <Link
+                href={action.videoLink}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="md:hidden"
               >
-                <Image
-                  src={'/svg/video.svg'}
-                  width={13.55}
-                  height={8.34}
-                  alt="Video Link"
-                />
-                <p
+                <div
                   className="
-                     ml-1 leading-3 font-[500] text-[12px] text-[#848281]"
+                  h-[20px] flex max-w-fit items-center
+                  px-[7px] py-0 mt-3 rounded bg-[#FBFAF9]
+                  "
                 >
-                  Video
-                </p>
-              </div>
-            </Link>
-          )}
+                  <Image
+                    src={'/svg/video.svg'}
+                    width={13.55}
+                    height={8.34}
+                    alt="Video Link"
+                  />
+                  <p
+                    className="
+                      ml-1 leading-3 font-[500] text-[12px] text-[#848281]"
+                  >
+                    Video
+                  </p>
+                </div>
+              </Link>
+            )}
+            {action.figmaLink && (
+              <Link
+                href={action.figmaLink}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="md:hidden"
+              >
+                <div
+                  className="
+                  h-[20px] flex max-w-fit items-center
+                  px-[7px] py-0 ml-2 mt-3 rounded bg-[#FBFAF9]
+                "
+                >
+                  <Image
+                    src={'/svg/figma.svg'}
+                    width={8}
+                    height={10}
+                    alt="Figma Link"
+                  />
+                  <p
+                    className="
+                    ml-1 leading-3 font-[500] text-[12px] text-[#848281]"
+                  >
+                    Figma
+                  </p>
+                </div>
+              </Link>
+            )}
+          </div>
           <p
             className="
             mt-4 text-[#848281] font-[400]"
