@@ -20,6 +20,7 @@ type Action = {
   builder_profile?: string
   width: number
   videoLink?: string
+  figmaLink?: string
 }
 
 export function ActionCard({ action }: { action: Action }) {
@@ -121,34 +122,64 @@ export function ActionCard({ action }: { action: Action }) {
                 />
               )}
             </div>
-            {action.videoLink && (
-              <Link
-                href={action.videoLink}
-                rel="no-opener noreferrer"
-                target="_blank"
-                className="hidden md:block"
-              >
-                <div
-                  className="
+            <div className="flex gap-2">
+              {action.videoLink && (
+                <Link
+                  href={action.videoLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="hidden md:block"
+                >
+                  <div
+                    className="
                   flex py-0 h-[20px] items-center
                   rounded px-[7px] bg-[#FBFAF9]
                   "
-                >
-                  <Image
-                    src={'/svg/video.svg'}
-                    width={13.55}
-                    height={8.34}
-                    alt="Video Link"
-                  />
-                  <p
-                    className="
-                      ml-1 leading-3 font-[500] text-[12px] text-[#848281]"
                   >
-                    Video
-                  </p>
-                </div>
-              </Link>
-            )}
+                    <Image
+                      src={'/svg/video.svg'}
+                      width={13.55}
+                      height={8.34}
+                      alt="Video Link"
+                    />
+                    <p
+                      className="
+                      ml-1 leading-3 font-[500] text-[12px] text-[#848281]"
+                    >
+                      Video
+                    </p>
+                  </div>
+                </Link>
+              )}
+              {action.figmaLink && (
+                <Link
+                  href={action.figmaLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="hidden md:block"
+                >
+                  <div
+                    className="
+                  flex py-0 h-[20px] items-center
+                  rounded px-[7px] bg-[#FBFAF9]
+                  "
+                  >
+                    <Image
+                      src={'/svg/figma.svg'}
+                      width={8}
+                      height={10}
+                      alt="Figma Link"
+                    />
+                    <p
+                      className="
+                      ml-1 leading-3 font-[500] text-[12px] text-[#848281]"
+                    >
+                      Figma
+                    </p>
+                  </div>
+                </Link>
+              )}
+            </div>
           </div>
           <p
             className="
@@ -159,7 +190,7 @@ export function ActionCard({ action }: { action: Action }) {
           {action.videoLink && (
             <Link
               href={action.videoLink}
-              rel="no-opener noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
               className="md:hidden"
             >
