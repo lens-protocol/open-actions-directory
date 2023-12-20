@@ -7,8 +7,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/_vercel/:match*",
-        destination: "https://open-actions-directory.vercel.app/_vercel/match*"
+        source: "/_vercel/insights/:match*",
+        destination: "https://open-actions-directory.vercel.app/_vercel/insights/match*"
       }
     ]
   },
