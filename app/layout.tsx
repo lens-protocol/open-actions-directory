@@ -19,6 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning >
+      <link
+        rel="shortcut icon"
+        href={`https://open-actions-directory.vercel.app/favicon.ico`}
+      />
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
