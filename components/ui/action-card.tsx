@@ -165,7 +165,7 @@ export function ActionCard({ action }: { action: Action }) {
                   "
                   >
                     <Image
-                      src={'/svg/figma.svg'}
+                      src={'https://open-actions-directory.vercel.app/svg/figma.svg'}
                       width={8}
                       height={10}
                       alt="Figma Link"
@@ -230,7 +230,7 @@ export function ActionCard({ action }: { action: Action }) {
                 "
                 >
                   <Image
-                    src={'/svg/figma.svg'}
+                    src={'https://open-actions-directory.vercel.app/svg/figma.svg'}
                     width={8}
                     height={10}
                     alt="Figma Link"
