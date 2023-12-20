@@ -4,7 +4,14 @@ const nextConfig = {
   assetPrefix: 'https://open-actions-directory.vercel.app',
   // Configure `pageExtensions`` to include MDX files
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-  // Optionally, add any other Next.js config below
+  async rewrites() {
+    return [
+      {
+        source: "/_vercel/:match*",
+        destination: "https://open-actions-directory.vercel.app/_vercel/match*"
+      }
+    ]
+  },
 }
  
 module.exports = withMDX(nextConfig)
