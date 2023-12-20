@@ -8,7 +8,7 @@ const nextConfig = {
     return [
       {
         source: "/_vercel/insights/:match*",
-        destination: "https://open-actions-directory.vercel.app/_vercel/insights/match*"
+        destination: "https://open-actions-directory.vercel.app/_vercel/insights/:match*"
       }
     ]
   },
