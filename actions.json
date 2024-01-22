@@ -15,12 +15,17 @@
     "height": 144
   },
   {
-    "type": "idea",
+    "type": "action",
     "name": "Tipping",
     "description": "Instantly tip creators to show appreciation and support, fostering a vibrant creator economy.",
     "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
     "tag": "SocialFi",
+    "link":"https://github.com/mvanhalen/TipActionModule",
+    "builder": "Orna",
+    "builder_profile": "https://orna.art",
+    "block_explorer_link": "https://polygonscan.com/address/0x22cb67432C101a9b6fE0F9ab542c8ADD5DD48153",
     "hero": "tipping.png",
+    "special_security_and_execution_considerations": "Currency approval needed",
     "videoLink": "https://tape.xyz/watch/0x01cddb-0x0e",
     "figmaLink": "https://www.figma.com/file/ifQTouvhx5yhMiuNFqimph/%F0%9F%93%A2-Smart-Post-Design-Examples?type=design&node-id=1%3A12940&mode=design&t=cEMQJKn531XC3BHA-1",
     "width": 200,
