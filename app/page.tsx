@@ -94,7 +94,7 @@ export default function Home() {
               flex items-center rounded-full
               bg-[#343433] px-[16px] py-[11px]
               text-sm text-white
-              hover:bg-black
+              hover:bg-black transition duration-300
               '
             >
                <p
@@ -119,7 +119,7 @@ export default function Home() {
               ml-3 px-[16px] py-[11px] rounded-full
               cursor-pointer bg-[#F0F0F0]
               text-sm text-black
-              hover:bg-[#D9D9D9]
+              hover:bg-[#D9D9D9] transition duration-300
               '
             >
               <p

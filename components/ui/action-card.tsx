@@ -41,7 +41,7 @@ export function ActionCard({ action }: { action: Action }) {
           <Card
             className="
             bg-[#fbfaf9] rounded-[8px] flex justify-center content-start h-[192px] overflow-hidden border-0
-            [&>_img]:hover:scale-[1.03] transition duration-200
+            [&>_img]:hover:scale-[1.03] transition duration-300
             shadow-none       
           "
           >
@@ -266,7 +266,7 @@ export function ActionCard({ action }: { action: Action }) {
                   flex items-center px-[16px] py-[11px]
                   rounded-full bg-[#343433] 
                   text-white text-sm
-                  hover:bg-black
+                  hover:bg-black transition duration-300
                   "
               >
                 <p className="text-base font-[500]">View Docs</p>
@@ -288,7 +288,7 @@ export function ActionCard({ action }: { action: Action }) {
                   flex items-center px-[16px] py-[11px]
                   rounded-full bg-[#343433] 
                   text-white text-sm
-                  hover:bg-black
+                  hover:bg-black transition
                   "
               >
                 <p className="text-base font-[500]">View GitHub</p>
@@ -311,7 +311,7 @@ export function ActionCard({ action }: { action: Action }) {
                 rounded-full text-black px-[16px] py-[11px]
                 text-sm
                 flex items-center
-                hover:bg-[#D9D9D9]
+                hover:bg-[#D9D9D9] transition duration-300
               "
             >
               <p className="text-base font-[500]">Submit Post</p>

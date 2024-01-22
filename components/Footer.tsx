@@ -51,7 +51,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className='
                 font-[400]
-                hover:text-[#343433]
+                hover:text-[#343433] transition duration-300
                 text-sm text-[#a7a7a7] '
               >GitHub</a>
               <a
@@ -60,8 +60,8 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className='
                 font-[400]
-                hover:text-[#343433]
-                ml-5 text-sm text-[#a7a7a7] '
+                hover:text-[#343433] transition duration-300
+                ml-5 text-sm text-[#a7a7a7]'
               >Documentation</a>
               <a
                 href="https://t.me/+2j1jirznPt0zMmFh"
@@ -69,7 +69,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className='
                 font-[400]
-                hover:text-[#343433]
+                hover:text-[#343433] transition duration-300
                 ml-5 text-sm text-[#a7a7a7] '
               >Dev Garden</a>
             </div>
