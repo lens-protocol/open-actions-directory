@@ -85,17 +85,19 @@ export function ActionCard({ action }: { action: Action }) {
       >
         <div
           className="
-        mx-6 flex justify-center rounded-t-lg
-        bg-[#fbfaf9]
-        sm:mx-0
-        "
+          mx-6 flex justify-center rounded-t-lg
+          bg-[#fbfaf9]
+          sm:mx-0
+          "
         >
           <Image
             src={`/png/${action.hero}`}
             width={540}
             height={278}
             alt={action.name}
-            style={{ display: 'block', objectFit: 'contain' }}
+            style={{
+              maxHeight: '278px',
+              display: 'block', objectFit: 'contain' }}
           />
         </div>
         <div
