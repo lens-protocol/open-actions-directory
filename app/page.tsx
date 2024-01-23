@@ -143,13 +143,13 @@ export default function Home() {
         >
           <Image 
             src="/png/hero.png"
-            width={500}
-            height={390}
+            width={630}
+            height={401}
             alt="Lens Smart Posts"
             placeholder="blur"
             blurDataURL={`/svg/hero.svg`}
             className='
-            ml-[-40px] mt-8 lg:ml-0 lg:mt-0
+            ml-[-40px] mt-8 lg:ml-0 lg:mt-[-40px] 
             '
           />
         </div>
