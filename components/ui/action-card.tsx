@@ -68,7 +68,7 @@ export function ActionCard({ action }: { action: Action }) {
               {
                 action.type === 'action' && (
                   <Image 
-                    src={`/svg/built.svg`}
+                    src={`https://raw.githubusercontent.com/lens-protocol/open-actions-directory/d6c6423563da1db8d93d58ccfb5c7974901821a8/public/svg/built.svg`}
                     width={40}
                     height={19}
                     alt="Built"
