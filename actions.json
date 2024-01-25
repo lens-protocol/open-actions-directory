@@ -15,12 +15,13 @@
     "height": 144
   },
   {
-    "type": "idea",
+    "type": "action",
     "name": "Tipping",
     "description": "Instantly tip creators to show appreciation and support, fostering a vibrant creator economy.",
     "long-description": "Tipping transforms user appreciation into tangible support. This feature embeds a culture of direct financial encouragement within the community, enabling followers to actively support and sustain the creative work of their favorite creators.",
     "tag": "SocialFi",
     "hero": "tipping.png",
+    "link": "https://github.com/mvanhalen/TipActionModule",
     "videoLink": "https://tape.xyz/watch/0x01cddb-0x0e",
     "figmaLink": "https://www.figma.com/file/ifQTouvhx5yhMiuNFqimph/%F0%9F%93%A2-Smart-Post-Design-Examples?type=design&node-id=1%3A12940&mode=design&t=cEMQJKn531XC3BHA-1",
     "width": 200,
@@ -61,12 +62,13 @@
     "height": 175
   },
   {
-    "type": "idea",
+    "type": "action",
     "name": "Promote Communities with MadFi",
     "description": "Discover and engage with diverse communities through the innovative MadFi platform.",
     "long-description": "MadFi enriches digital communities by enabling creators to promote social clubs, incentivize engagement, and compensate for community-created content. It fosters active participation and enhances the value of community interactions.",
     "tag": "SocialFi",
     "hero": "promote-communities.png",
+    "link": "https://polygonscan.com/address/0x55991a42e8FEb9DFAC9Fcc172f133D36AC2282A2#code",
     "width": 276,
     "height": 152
   },
@@ -81,12 +83,13 @@
     "height": 188
   },
   {
-    "type": "idea",
+    "type": "action",
     "name": "Collect on Zora",
     "description": "Seamlessly collect and trade digital assets with Zora integration, enriching your feed.",
     "long-description": "Integrating Zora transforms social feeds into interactive digital asset platforms. It facilitates the collection, showcasing, and trading of digital assets, enhancing social interaction and placing a premium on digital creativity and curation.",
     "tag": "SocialFi",
     "hero": "zora.png",
+    "link": "https://polygonscan.com/address/0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A#code",
     "width": 276,
     "height": 190
   },
@@ -123,12 +126,13 @@
   },
 
   {
-    "type": "idea",
+    "type": "action",
     "name": "Cross-Chain Minting with Decent",
     "description": "Experience limitless creativity by minting assets cross-chain with Decent.xyz.",
     "long-description": "Decent simplifies cross-chain creativity with 1-click transactions using any token or fiat. Its template allows actions to be embeddable in various platforms, ensuring compatibility across different blockchain networks for seamless user experiences.",
     "tag": "DeFi",
     "hero": "decent.png",
+    "link": "https://polygonscan.com/address/0xA9d72bCAd216b1F05d7D60b46Fd8dC01D501257a#code",
     "width": 276,
     "height": 152
   }

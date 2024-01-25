@@ -56,14 +56,28 @@ export function ActionCard({ action }: { action: Action }) {
             "
             />
           </Card>
-          <div>
-            <p
-              className="
-              text-[#343433]
-              font-[500] mt-5"
-            >
-              {action.name}
-            </p>
+          <div className='mt-5'>
+            <div className='flex items-center'>
+              <p
+                className="
+                text-[#343433]
+                font-[500]"
+              >
+                {action.name}
+              </p>
+              {
+                action.type === 'action' && (
+                  <Image 
+                    src={`/svg/built.svg`}
+                    width={40}
+                    height={19}
+                    alt="Built"
+                    className='ml-2'
+                  />
+                )
+              }
+            </div>
+
             <p
               className="
               font-[400] text-[#848281] text-sm mt-2
@@ -117,6 +131,15 @@ export function ActionCard({ action }: { action: Action }) {
               {action.type === 'idea' && (
                 <Image
                   src="/svg/idea-badge.svg"
+                  width={40}
+                  height={20}
+                  alt="Idea"
+                  className="mt-[-2px] inline-block"
+                />
+              )}
+              {action.type === 'action' && (
+                <Image
+                  src="/svg/built.svg"
                   width={40}
                   height={20}
                   alt="Idea"
@@ -293,7 +316,7 @@ export function ActionCard({ action }: { action: Action }) {
                   hover:bg-black transition
                   "
               >
-                <p className="text-base font-[500]">View GitHub</p>
+                <p className="text-base font-[500]">View Code</p>
                 <Image
                   src={'/svg/arrow-white.svg'}
                   alt="Arrow"
