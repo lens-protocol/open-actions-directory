@@ -53,7 +53,7 @@ export default function Nav() {
               target="_blank"
               rel="noopener"
             >
-              <p className="hover:text-foreground text-muted-foreground text-sm ml-5">
+              <p className="hover:text-foreground transition duration-300 text-muted-foreground text-sm ml-5">
                 Build a Smart Post
               </p>
             </a>
@@ -62,7 +62,7 @@ export default function Nav() {
               target="_blank"
               rel="noopener"
             >
-              <p className="text-muted-foreground text-sm ml-5 hover:text-foreground">
+              <p className="text-muted-foreground text-sm ml-5 hover:text-foreground transition duration-300">
                 Submit an Smart Post
               </p>
             </a>
@@ -71,7 +71,7 @@ export default function Nav() {
               target="_blank"
               rel="noopener"
             >
-              <p className="hover:text-foreground text-muted-foreground text-sm ml-5">
+              <p className="hover:text-foreground transition duration-300 text-muted-foreground text-sm ml-5">
                 Lens Docs
               </p>
             </a>
@@ -80,7 +80,7 @@ export default function Nav() {
               target="_blank"
               rel="noopener"
             >
-              <p className="hover:text-foreground text-muted-foreground text-sm ml-5">
+              <p className="hover:text-foreground transition duration-300 text-muted-foreground text-sm ml-5">
                 Lens Dev Garden
               </p>
             </a>
