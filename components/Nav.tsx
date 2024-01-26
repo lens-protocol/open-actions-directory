@@ -44,7 +44,7 @@ export default function Nav() {
               <div className="flex flex-row justify-center items-center">
                 <Icon width="28px" height="28px" fill={fill} />
                 <p className="text-sm font-semibold">
-                  Lens Smart Posts Library
+                  Lens Open Actions Library
                 </p>
               </div>
             </Link>

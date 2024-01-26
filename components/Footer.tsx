@@ -34,7 +34,7 @@ export function Footer() {
             <p className='
             text-[#343433]
             text-sm
-            font-medium'>Lens Smart Posts</p>
+            font-medium'>Lens Open Actions</p>
             <p
               className='
               mt-3 text-sm text-[#a7a7a7]

@@ -32,7 +32,7 @@ export default function Home() {
               src="/svg/logo.svg"
               width={27}
               height={18}
-              alt="Smart Posts Directory"
+              alt="Open Actions Directory"
             />
             <p className='ml-2 font-medium text-[#343433]'>Lens</p>
             <div className='ml-4 w-[1px] h-[14px] bg-[#E6E6E6]' />
@@ -50,7 +50,7 @@ export default function Home() {
               src="/png/hero.png"
               width={5000}
               height={3900}
-              alt="Lens Smart Posts"
+              alt="Open Actions Posts"
               className='
               ml-[-35px] mt-8
               '
@@ -65,7 +65,7 @@ export default function Home() {
             lg:text-[48px] lg:leading-[52.8px] lg:pr-0
             '
           >
-            Smart Posts
+            Open Actions
           </h1>
           <p
              className='
@@ -74,7 +74,7 @@ export default function Home() {
              md:hidden
              '
           >
-            Smart Posts bring the power of smart contracts into the feed. Engage a wider audience with interactive web3 experiences seamlessly integrated across the Lens ecosystem.
+            Open Actions bring the power of smart contracts into the feed. Engage a wider audience with interactive web3 experiences seamlessly integrated across the Lens ecosystem.
           </p>
           <p
             className='
@@ -83,7 +83,7 @@ export default function Home() {
             md:block
             '
           >
-            Smart Posts bring the power of smart contracts into the feed. Engage a wider audience with interactive web3 experiences seamlessly integrated across the Lens ecosystem.
+            Open Actions bring the power of smart contracts into the feed. Engage a wider audience with interactive web3 experiences seamlessly integrated across the Lens ecosystem.
           </p>
           <div className='mt-7 flex'>
             <Link
@@ -145,7 +145,7 @@ export default function Home() {
             src="/png/hero.png"
             width={630}
             height={401}
-            alt="Lens Smart Posts"
+            alt="Lens Open Actions"
             placeholder="blur"
             blurDataURL={`/svg/hero.svg`}
             className='
