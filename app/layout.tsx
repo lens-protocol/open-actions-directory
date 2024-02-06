@@ -1,24 +1,24 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import { Footer } from '@/components/Footer'
-import { ThemeProvider } from "@/components/theme-provider"
-import { Analytics } from '@vercel/analytics/react';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { Footer } from "@/components/Footer";
+import { ThemeProvider } from "@/components/theme-provider";
+import Fathom from "@/lib/fathom";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Open Actions Directory',
-  description: 'Discover and Build Lens Open Actions.'
-}
+  title: "Open Actions Directory",
+  description: "Discover and Build Lens Open Actions.",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning >
+    <html lang="en" suppressHydrationWarning>
       <link
         rel="shortcut icon"
         href={`https://open-actions-directory.vercel.app/favicon.ico`}
@@ -31,11 +31,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <Analytics />
+          <Fathom />
           <Footer />
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
-
