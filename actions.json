@@ -68,7 +68,7 @@
     "type": "action",
     "name": "Pay in MATIC, collect on Zora",
     "description": "Seamlessly pay in MATIC to collect digital assets on Zora, simplifying the transaction process.",
-    "long-description": "Seamlessly collect digital assets on Zora by paying in MATIC. This feature simplifies the transaction process, making it more accessible and user-friendly for creators and collectors alike.",
+    "long-description": "Seamlessly collect digital assets on Zora by paying in MATIC from the feed. This feature simplifies the transaction process, making it more accessible and user-friendly for creators and collectors alike.",
     "tag": "SocialFi",
     "hero": "zora2.png",
     "link": "https://polygonscan.com/address/0x410688fc60028C805Bdf8592A6504A0096927911#code",
