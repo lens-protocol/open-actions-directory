@@ -66,6 +66,17 @@
   },
   {
     "type": "action",
+    "name": "Pay in MATIC",
+    "description": "Pay in MATIC, collect on Zora",
+    "long-description": "Seamlessly collect digital assets on Zora by paying in MATIC. This feature simplifies the transaction process, making it more accessible and user-friendly for creators and collectors alike.",
+    "tag": "SocialFi",
+    "hero": "zora2.png",
+    "link": "https://polygonscan.com/address/0x410688fc60028C805Bdf8592A6504A0096927911#code",
+    "width": 276,
+    "height": 190
+  },
+  {
+    "type": "action",
     "name": "Cross-Chain Minting with Decent",
     "description": "Experience limitless creativity by minting assets cross-chain with Decent.xyz.",
     "long-description": "Decent simplifies cross-chain creativity with 1-click transactions using any token or fiat. Its template allows actions to be embeddable in various platforms, ensuring compatibility across different blockchain networks for seamless user experiences.",
