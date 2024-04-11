@@ -77,6 +77,17 @@
   },
   {
     "type": "action",
+    "name": "Polls in feed",
+    "description": "Easily create polls in yout feed to engage with your audience.",
+    "long-description": "Polls in feed is a feature that allows creators to easily create polls in their feed to engage with their audience. This feature is designed to be user-friendly and intuitive, making it easy for creators to create polls and for users to participate in them.",
+    "tag": "SocialFi",
+    "hero": "poll.png",
+    "link": "https://polygonscan.com/address/0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43#code",
+    "width": 276,
+    "height": 190
+  },
+  {
+    "type": "action",
     "name": "Cross-Chain Minting with Decent",
     "description": "Experience limitless creativity by minting assets cross-chain with Decent.xyz.",
     "long-description": "Decent simplifies cross-chain creativity with 1-click transactions using any token or fiat. Its template allows actions to be embeddable in various platforms, ensuring compatibility across different blockchain networks for seamless user experiences.",
