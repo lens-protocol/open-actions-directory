@@ -9,6 +9,11 @@ const nextConfig = {
       {
         source: "/_vercel/insights/:match*",
         destination: "https://open-actions-directory-beta.vercel.app/_vercel/insights/:match*"
+      },
+      {
+        // Rewrite image optimization API path to ensure the asset prefix is respected
+        source: '/_next/image*',
+        destination: 'https://open-actions-directory-beta.vercel.app/_next/image*'
       }
     ]
   },
