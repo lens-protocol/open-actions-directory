@@ -1,34 +1,34 @@
-'use client'
+"use client";
 
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Card } from '@/components/ui/card'
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Card } from "@/components/ui/card";
 
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog'
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 type Action = {
-  name: string
-  description: string
-  type: string
-  hero: string
-  tag: string
-  link?: string
-  builder?: string
-  bounty?: string
-  height: number
-  builder_profile?: string
-  width: number
-  videoLink?: string
-  figmaLink?: string
-}
+  name: string;
+  description: string;
+  type: string;
+  hero: string;
+  tag: string;
+  link?: string;
+  builder?: string;
+  bounty?: string;
+  height: number;
+  builder_profile?: string;
+  width: number;
+  videoLink?: string;
+  figmaLink?: string;
+};
 
 export function ActionCard({ action }: { action: Action }) {
-  const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(false);
   useEffect(() => {
-    setLoaded(true)
-  }, [])
-  if (!loaded) return null
+    setLoaded(true);
+  }, []);
+  if (!loaded) return null;
   return (
     <Dialog>
       <DialogTrigger asChild className="cursor-pointer">
@@ -50,14 +50,14 @@ export function ActionCard({ action }: { action: Action }) {
               height={278}
               src={`/png/${action.hero}`}
               alt={action.name}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
               className="
             transition duration-200 
             "
             />
           </Card>
-          <div className='mt-5'>
-            <div className='flex items-center'>
+          <div className="mt-5">
+            <div className="flex items-center">
               <p
                 className="
                 text-[#343433]
@@ -65,17 +65,15 @@ export function ActionCard({ action }: { action: Action }) {
               >
                 {action.name}
               </p>
-              {
-                action.type === 'action' && (
-                  <Image 
-                    src={`https://raw.githubusercontent.com/lens-protocol/open-actions-directory/d6c6423563da1db8d93d58ccfb5c7974901821a8/public/svg/built.svg`}
-                    width={40}
-                    height={19}
-                    alt="Built"
-                    className='ml-2'
-                  />
-                )
-              }
+              {action.type === "action" && (
+                <Image
+                  src={`https://raw.githubusercontent.com/lens-protocol/open-actions-directory/d6c6423563da1db8d93d58ccfb5c7974901821a8/public/svg/built.svg`}
+                  width={40}
+                  height={19}
+                  alt="Built"
+                  className="ml-2"
+                />
+              )}
             </div>
 
             <p
@@ -110,8 +108,10 @@ export function ActionCard({ action }: { action: Action }) {
             height={278}
             alt={action.name}
             style={{
-              maxHeight: '278px',
-              display: 'block', objectFit: 'contain' }}
+              maxHeight: "278px",
+              display: "block",
+              objectFit: "contain",
+            }}
           />
         </div>
         <div
@@ -128,7 +128,7 @@ export function ActionCard({ action }: { action: Action }) {
               >
                 {action.name}
               </p>
-              {action.type === 'idea' && (
+              {action.type === "idea" && (
                 <Image
                   src="/svg/idea-badge.svg"
                   width={40}
@@ -137,7 +137,7 @@ export function ActionCard({ action }: { action: Action }) {
                   className="mt-[-2px] inline-block"
                 />
               )}
-              {action.type === 'action' && (
+              {action.type === "action" && (
                 <Image
                   src="https://raw.githubusercontent.com/lens-protocol/open-actions-directory/d6c6423563da1db8d93d58ccfb5c7974901821a8/public/svg/built.svg"
                   width={40}
@@ -162,7 +162,7 @@ export function ActionCard({ action }: { action: Action }) {
                   "
                   >
                     <Image
-                      src={'/svg/video.svg'}
+                      src={"/svg/video.svg"}
                       width={13.55}
                       height={8.34}
                       alt="Video Link"
@@ -190,7 +190,9 @@ export function ActionCard({ action }: { action: Action }) {
                   "
                   >
                     <Image
-                      src={'https://open-actions-directory.vercel.app/svg/figma.svg'}
+                      src={
+                        "https://open-actions-directory-beta.vercel.app/svg/figma.svg"
+                      }
                       width={8}
                       height={10}
                       alt="Figma Link"
@@ -212,7 +214,7 @@ export function ActionCard({ action }: { action: Action }) {
           >
             {action.tag}
           </p>
-          <div className='flex flex-row'>
+          <div className="flex flex-row">
             {action.videoLink && (
               <Link
                 href={action.videoLink}
@@ -227,7 +229,7 @@ export function ActionCard({ action }: { action: Action }) {
                   "
                 >
                   <Image
-                    src={'/svg/video.svg'}
+                    src={"/svg/video.svg"}
                     width={13.55}
                     height={8.34}
                     alt="Video Link"
@@ -255,7 +257,9 @@ export function ActionCard({ action }: { action: Action }) {
                 "
                 >
                   <Image
-                    src={'https://open-actions-directory.vercel.app/svg/figma.svg'}
+                    src={
+                      "https://open-actions-directory-beta.vercel.app/svg/figma.svg"
+                    }
                     width={8}
                     height={10}
                     alt="Figma Link"
@@ -274,7 +278,7 @@ export function ActionCard({ action }: { action: Action }) {
             className="
             mt-4 text-[#848281] font-[400]"
           >
-            {action['long-description']}
+            {action["long-description"]}
           </p>
           <div
             className="
@@ -296,7 +300,7 @@ export function ActionCard({ action }: { action: Action }) {
               >
                 <p className="text-base font-[500]">View Docs</p>
                 <Image
-                  src={'/svg/arrow-white.svg'}
+                  src={"/svg/arrow-white.svg"}
                   alt="Arrow"
                   height={13}
                   width={13}
@@ -318,7 +322,7 @@ export function ActionCard({ action }: { action: Action }) {
               >
                 <p className="text-base font-[500]">View Code</p>
                 <Image
-                  src={'/svg/arrow-white.svg'}
+                  src={"/svg/arrow-white.svg"}
                   alt="Arrow"
                   height={13}
                   width={13}
@@ -341,7 +345,7 @@ export function ActionCard({ action }: { action: Action }) {
             >
               <p className="text-base font-[500]">Submit Post</p>
               <Image
-                src={'/svg/arrow.svg'}
+                src={"/svg/arrow.svg"}
                 alt="Arrow"
                 height={13}
                 width={13}
@@ -352,5 +356,5 @@ export function ActionCard({ action }: { action: Action }) {
         </div>
       </DialogContent>
     </Dialog>
-  )
+  );
 }
