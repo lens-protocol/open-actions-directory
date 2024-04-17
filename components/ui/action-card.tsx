@@ -51,7 +51,7 @@ export function ActionCard({ action }: { action: Action }) {
               <img
                 src={action.externalSrc}
                 alt={action.name}
-                className="object-contain w-[540px] h-[278px] transition duration-200"
+                className="object-contain w-[540px] transition duration-200 max-w-full h-auto"
               />
             ) : (
               <Image
