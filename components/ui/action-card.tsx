@@ -21,6 +21,7 @@ type Action = {
   width: number;
   videoLink?: string;
   figmaLink?: string;
+  externalSrc?: string;
 };
 
 export function ActionCard({ action }: { action: Action }) {
@@ -48,7 +49,7 @@ export function ActionCard({ action }: { action: Action }) {
             <Image
               width={540}
               height={278}
-              src={`/png/${action.hero}`}
+              src={action.externalSrc ?? `/png/${action.hero}`}
               alt={action.name}
               style={{ objectFit: "contain" }}
               className="
@@ -103,7 +104,7 @@ export function ActionCard({ action }: { action: Action }) {
           "
         >
           <Image
-            src={`/png/${action.hero}`}
+            src={action.externalSrc ?? `/png/${action.hero}`}
             width={540}
             height={278}
             alt={action.name}

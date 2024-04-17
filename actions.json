@@ -66,6 +66,30 @@
   },
   {
     "type": "action",
+    "name": "Pay in MATIC, collect on Zora",
+    "description": "Seamlessly pay in MATIC to collect digital assets on Zora, simplifying the transaction process.",
+    "long-description": "Seamlessly collect digital assets on Zora by paying in MATIC from the feed. This feature simplifies the transaction process, making it more accessible and user-friendly for creators and collectors alike.",
+    "tag": "SocialFi",
+    "externalSrc": "https://open-actions-directory-beta.vercel.app/png/zora2.png",
+    "hero": "zora2.png",
+    "link": "https://polygonscan.com/address/0x410688fc60028C805Bdf8592A6504A0096927911#code",
+    "width": 276,
+    "height": 190
+  },
+  {
+    "type": "action",
+    "name": "Polls in feed",
+    "description": "Easily create polls in yout feed to engage with your audience.",
+    "long-description": "Polls in feed is a feature that allows creators to easily create polls in their feed to engage with their audience. This feature is designed to be user-friendly and intuitive, making it easy for creators to create polls and for users to participate in them.",
+    "tag": "SocialFi",
+    "externalSrc": "https://open-actions-directory-beta.vercel.app/png/poll.png",
+    "hero": "https://www.lens.dev/_next/image?url=%2Fpng%2Fpoll.png&w=1080&q=75",
+    "link": "https://polygonscan.com/address/0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43#code",
+    "width": 276,
+    "height": 190
+  },
+  {
+    "type": "action",
     "name": "Cross-Chain Minting with Decent",
     "description": "Experience limitless creativity by minting assets cross-chain with Decent.xyz.",
     "long-description": "Decent simplifies cross-chain creativity with 1-click transactions using any token or fiat. Its template allows actions to be embeddable in various platforms, ensuring compatibility across different blockchain networks for seamless user experiences.",
