@@ -46,16 +46,25 @@ export function ActionCard({ action }: { action: Action }) {
             shadow-none       
           "
           >
-            <Image
-              width={540}
-              height={278}
-              src={action.externalSrc ?? `/png/${action.hero}`}
-              alt={action.name}
-              style={{ objectFit: "contain" }}
-              className="
+            {!!action.externalSrc ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={action.externalSrc}
+                alt={action.name}
+                className="object-contain w-[540px] h-[278px] transition duration-200"
+              />
+            ) : (
+              <Image
+                width={540}
+                height={278}
+                src={`/png/${action.hero}`}
+                alt={action.name}
+                style={{ objectFit: "contain" }}
+                className="
             transition duration-200 
             "
-            />
+              />
+            )}
           </Card>
           <div className="mt-5">
             <div className="flex items-center">
@@ -103,17 +112,31 @@ export function ActionCard({ action }: { action: Action }) {
           sm:mx-0
           "
         >
-          <Image
-            src={action.externalSrc ?? `/png/${action.hero}`}
-            width={540}
-            height={278}
-            alt={action.name}
-            style={{
-              maxHeight: "278px",
-              display: "block",
-              objectFit: "contain",
-            }}
-          />
+          {!!action.externalSrc ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={action.externalSrc}
+              alt={action.name}
+              className="object-contain w-[540px] h-[278px] transition duration-200"
+              style={{
+                maxHeight: "278px",
+                display: "block",
+                objectFit: "contain",
+              }}
+            />
+          ) : (
+            <Image
+              src={action.externalSrc ?? `/png/${action.hero}`}
+              width={540}
+              height={278}
+              alt={action.name}
+              style={{
+                maxHeight: "278px",
+                display: "block",
+                objectFit: "contain",
+              }}
+            />
+          )}
         </div>
         <div
           className="
