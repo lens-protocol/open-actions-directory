@@ -100,19 +100,7 @@
     "height": 152
   },
   {
-    "type": "idea",
-    "name": "Pay to Read",
-    "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
-    "long-description": "Envision a nuanced approach to content monetization. 'Pay To Read Rest' merges user curiosity with creator reward, offering premium content access upon a token-gated payment, effectively balancing reader interest and creator compensation.",
-    "tag": "SocialFi",
-    "hero": "pay-to-read.png",
-    "videoLink": "https://tape.xyz/watch/0x01cddb-0x0c",
-    "figmaLink": "https://www.figma.com/file/ifQTouvhx5yhMiuNFqimph/%F0%9F%93%A2-Smart-Post-Design-Examples?type=design&node-id=1%3A7741&mode=design&t=cEMQJKn531XC3BHA-1",
-    "width": 276,
-    "height": 194
-  },
-  {
-    "type": "idea",
+    "type": "action",
     "name": "Rent a Post",
     "description": "Turn your digital space into a revenue source by renting out post space for ads.",
     "long-description": " 'Rent a Post' offers a new dimension in digital advertising. It allows creators to monetize their social presence by renting post space for ads, providing a unique opportunity for targeted audience engagement and innovative revenue generation.",
@@ -123,6 +111,18 @@
     "figmaLink": "https://www.figma.com/file/ifQTouvhx5yhMiuNFqimph/%F0%9F%93%A2-Smart-Post-Design-Examples?type=design&node-id=1%3A707&mode=design&t=cEMQJKn531XC3BHA-1",
     "width": 276,
     "height": 249
+  },
+  {
+    "type": "idea",
+    "name": "Pay to Read",
+    "description": "Unlock full content with a payment, bridging curiosity and exclusive access for readers.",
+    "long-description": "Envision a nuanced approach to content monetization. 'Pay To Read Rest' merges user curiosity with creator reward, offering premium content access upon a token-gated payment, effectively balancing reader interest and creator compensation.",
+    "tag": "SocialFi",
+    "hero": "pay-to-read.png",
+    "videoLink": "https://tape.xyz/watch/0x01cddb-0x0c",
+    "figmaLink": "https://www.figma.com/file/ifQTouvhx5yhMiuNFqimph/%F0%9F%93%A2-Smart-Post-Design-Examples?type=design&node-id=1%3A7741&mode=design&t=cEMQJKn531XC3BHA-1",
+    "width": 276,
+    "height": 194
   },
   {
     "type": "idea",
